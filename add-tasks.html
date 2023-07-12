@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> الاعدادات العامة</title>
+    <title> المهام</title>
     <!-- main css -->
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -120,7 +120,7 @@
                 </li>
 
                 <li class="nav-item">
-                     <a href="tasks.html" class="nav-link align-middle">
+                    <a href="tasks.html" class="nav-link align-middle">
                         <img src="/image/task-square-icon.png" alt="icon" />
                         <span> مهام المكتب</span>
                     </a>
@@ -237,156 +237,122 @@
             <div class="content_page">
                 <div class="container">
                     <div class="main_topic">
-                        <h4> الاعدادات العامة </h4>
+                        <h4> اضافة مهمة جديدة </h4>
                     </div>
                     <form class="form_topic">
 
-                        <p class="form_pargraph">هذه البيانات التي أدخلتها عند التسجيل لا تظهر إلى أي من المستخدمين
-                            الآخرين</p>
-                        <!-- start input -->
-                        <div class="input-group input-group-upload">
-                            <img id="current-image" class="profile-image" src="image/upload.png" alt="Profile Image">
-                            <div class="upload-icon" id="upload-icon">
-                                <i class="bi bi-camera-fill"></i>
-                            </div>
-                            <input id="image-input" class="hidden" type="file" accept="image/*">
-                        </div>
-                        <!-- finish input -->
                         <!-- start input -->
                         <div class="row">
-                            <div class="col-lg-6 col-12">
+                            <div class="col-12">
                                 <div class="input-group">
-                                    <label class="form-label"> الاسم بالكامل </label>
-                                    <input required type="text" class="form-control">
-                                </div>
-                            </div>
-                            <!-- finish input -->
-                            <!-- start input -->
-                            <div class="col-lg-6 col-12">
-                                <div class="input-group">
-                                    <label class="form-label"> تاريخ الميلاد </label>
-                                    <input required type="date" class="form-control">
-                                </div>
-                            </div>
-                        </div>
-                        <!-- finish input -->
-                        <!-- start input -->
-                        <div class="row">
-                            <div class="col-lg-6 col-12">
-                                <div class="input-group">
-                                    <label class="form-label"> الوظيفة</label>
-                                    <select required class="selectpicker" data-placeholder=" حدد  الوظيفة"
-                                        data-selected-text-format="count > 1" data-icon="bi bi-trash"
-                                        data-live-search="true">
+                                    <label class="form-label"> القضية</label>
+                                    <select required class="selectpicker" multiple data-selected-text-format="count > 1"
+                                        data-icon="bi bi-trash" data-live-search="true" data-placeholder="حدد القضية ">
                                         <option value="1">One</option>
                                         <option value="2">Two</option>
                                         <option value="3">Three</option>
                                     </select>
                                 </div>
                             </div>
-                            <!-- finish input -->
-                            <!-- start input -->
-                            <div class="col-lg-6 col-12">
+                        </div>
+                        <!-- finish input -->
+
+                        <!-- start input -->
+                        <div class="row">
+                            <div class="col-12">
                                 <div class="input-group">
-                                    <label class="form-label"> نوع الوظيفة</label>
-                                    <select required class="selectpicker" data-placeholder=" حدد  الوظيفة"
-                                        data-selected-text-format="count > 1" data-icon="bi bi-trash"
-                                        data-live-search="true">
+                                    <label class="form-label"> عنوان المُهمة</label>
+                                    <input required type="text" placeholder="ادخل عنوان المُهمة  " class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- finish input -->
+                        <!-- start input -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="input-group">
+                                    <label class="form-label"> تفاصيل المهمة</label>
+                                    <textarea class="form-control" placeholder="ادخل تفاصيل المهمة"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- finish input -->
+
+                        <!-- start input -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="input-group">
+                                    <label class="form-label"> المحامي</label>
+                                    <select required class="selectpicker" multiple data-selected-text-format="count > 1"
+                                        data-icon="bi bi-trash" data-live-search="true"
+                                        data-placeholder=" اختر المحامي المسئول ">
                                         <option value="1">One</option>
                                         <option value="2">Two</option>
                                         <option value="3">Three</option>
                                     </select>
                                 </div>
                             </div>
+                        </div>
+                        <!-- finish input -->
+                        <!-- start input -->
+                        <div class="row">
+                            <!-- start input -->
+                            <div class="col-12">
+                                <div class="input-group">
+                                    <label class="form-label"> اضافة مرفقات للمهمة </label>
+
+                                    <div class="file-upload-wrapper"
+                                        data-text="اسحب الملفات التى تريد اضافتها  او قم بفتحها من هنا">
+                                        <input required name="file-upload-field form-control" type="file"
+                                            class="file-upload-field" value="" />
+                                    </div>
+                                </div>
+                            </div>
                             <!-- finish input -->
                         </div>
-                        <!-- start input -->
-                        <div class="row py-3">
-                            <div class="col-12">
+                        <!-- finish input -->
+                        <div class="row">
+                            <div class="col-lg-6">
                                 <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
                                     class="btn first">الاضافة والحفظ</button>
                             </div>
                         </div>
-                        <!-- finish input -->
+
                     </form>
                 </div>
             </div>
 
-
-            <div class="content_page">
-                <div class="container">
-                    <div class="main_topic">
-                        <h4> اعدادات الامان </h4>
-                    </div>
-                    <form class="form_topic">
-                        <p class="form_pargraph">هذه البيانات التي أدخلتها عند التسجيل لا تظهر إلى أي من المستخدمين
-                            الآخرين</p>
-                        <!-- start input -->
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="input-group">
-                                    <label class="form-label"> كلمة المرور الحالية </label>
-                                    <input required id="password" type="password" class="form-control"
-                                        placeholder="ادخل كلمة المرور الحالية">
-                                    <span class="lock-icon" onclick="togglePasswordVisibility()">
-                                        <i id="lockIcon" class="bi bi-eye"></i>
-
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- start input -->
-                        <!-- start input -->
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="input-group">
-                                    <label class="form-label"> كلمة المرور الجديدة </label>
-                                    <input required id="password1" type="password" class="form-control"
-                                        placeholder="ادخل كلمة المرور الحالية">
-                                    <span class="lock-icon" onclick="toggleNewPasswordVisibility()">
-                                        <i id="lockIcon1" class="bi bi-eye"></i>
-
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- start input -->
-
-                        <!-- start input -->
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="input-group">
-                                    <label class="form-label"> تأكيد كلمة المرور </label>
-                                    <input required id="password2" type="password" class="form-control"
-                                        placeholder="ادخل كلمة المرور الحالية" oninput="checkPasswordMatch()">
-                                    <span class="lock-icon" onclick="toggleNewPasswordConfirmVisibility()">
-                                        <i id="lockIcon2" class="bi bi-eye"></i>
-
-                                    </span>
-                                </div>
-                            </div>
-                            <small id="passwordError" style="color: red; display: none;">كلمة المرور غير
-                                متطابقة.</small>
-                            <small id="passwordMatch" style="color: green; display: none;">كلمة المرور متطابقة.</small>
-
-                        </div>
-                        <!-- finish input -->
-                        <!-- start input -->
-                        <div class="row py-3">
-                            <div class="col-12">
-                                <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                                    class="btn first">الاضافة والحفظ</button>
-                            </div>
-                        </div>
-                        <!-- finish input -->
-                    </form>
-                </div>
-            </div>
             <!---------------------- finish  content -------------------------------------------->
         </section>
         <!---------------------- finish main content -------------------------------------------->
     </main>
-    <!---------------------- finish footer -------------------------------------------->
+    <!---------------------- modal -------------------------------------------->
+
+    <div class="modal modal_assistant fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="content">
+                        <h4>تم اضافة المهمة بنجاح الى قائمة مهام المكتب</h4>
+                        <p>لقد قمت الآن باضافة المهمة الى قائمة معام المكتب لديك ويمكنك التعديل على البيانات فيما بعد
+                        </p>
+                        <div class="button">
+                            <a href="detials-tasks.html" class="btn first">عرض التفاصيل </a>
+                            <a href="edit-tasks.html" class="btn second">تعديل البيانات</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!---------------------- modal -------------------------------------------->
+
     <!-- main js -->
 
     <script src="js/jquery-3.7.1.min.js"></script>
@@ -395,93 +361,19 @@
     <script src="js/bootstrap-select.min.js"></script>
     <script src="js/main.js"></script>
     <!-- main js -->
-    <!-- upload image -->
+    <!-- sweet alert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- sweet alert -->
+    <!-- upload file -->
     <script>
-        const currentImage = document.getElementById("current-image");
-        const uploadIcon = document.getElementById("upload-icon");
-        const imageInput = document.getElementById("image-input");
-
-        uploadIcon.addEventListener("click", () => {
-            imageInput.click();
+        $("form").on("change", ".file-upload-field", function () {
+            $(this).parent(".file-upload-wrapper").attr("data-text", $(this).val().replace(/.*(\/|\\)/, ''));
         });
-
-        imageInput.addEventListener("change", handleImageUpload);
-
-        function handleImageUpload(event) {
-            const file = event.target.files[0];
-            const reader = new FileReader();
-
-            reader.onload = function (e) {
-                currentImage.src = e.target.result;
-            };
-
-            reader.readAsDataURL(file);
-        }
     </script>
-    <!-- upload image -->
-    <!-- show / hide password -->
-    <script>
-        function togglePasswordVisibility() {
-            var passwordInput = document.getElementById("password");
-            var lockIcon = document.getElementById("lockIcon");
+    <!-- upload file -->
 
-            if (passwordInput.type === "password") {
-                passwordInput.type = "text";
-                lockIcon.classList.remove("bi-eye");
-                lockIcon.classList.add("bi-eye-slash");
-            } else {
-                passwordInput.type = "password";
-                lockIcon.classList.remove("bi-eye-slash");
-                lockIcon.classList.add("bi-eye");
-            }
-        }
 
-        function toggleNewPasswordVisibility() {
-            var passwordInput = document.getElementById("password1");
-            var lockIcon = document.getElementById("lockIcon1");
 
-            if (passwordInput.type === "password") {
-                passwordInput.type = "text";
-                lockIcon.classList.remove("bi-eye");
-                lockIcon.classList.add("bi-eye-slash");
-            } else {
-                passwordInput.type = "password";
-                lockIcon.classList.remove("bi-eye-slash");
-                lockIcon.classList.add("bi-eye");
-            }
-        }
-        function toggleNewPasswordConfirmVisibility() {
-            var passwordInput = document.getElementById("password2");
-            var lockIcon = document.getElementById("lockIcon2");
-
-            if (passwordInput.type === "password") {
-                passwordInput.type = "text";
-                lockIcon.classList.remove("bi-eye");
-                lockIcon.classList.add("bi-eye-slash");
-            } else {
-                passwordInput.type = "password";
-                lockIcon.classList.remove("bi-eye-slash");
-                lockIcon.classList.add("bi-eye");
-            }
-        }
-    </script>
-    <!-- show / hide password -->
-    <script>
-        function checkPasswordMatch() {
-            var password1 = document.getElementById("password1").value;
-            var password2 = document.getElementById("password2").value;
-            var errorElement = document.getElementById("passwordError");
-            var matchElement = document.getElementById("passwordMatch");
-
-            if (password1 !== password2) {
-                errorElement.style.display = "inline-block";
-                matchElement.style.display = "none";
-            } else {
-                errorElement.style.display = "none";
-                matchElement.style.display = "inline-block";
-            }
-        }
-    </script>
 </body>
 
 </html>

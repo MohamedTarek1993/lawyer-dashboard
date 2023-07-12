@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="ar" dir="ltr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> الموظفين</title>
+    <!-- main css -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-select.min.css" />
+    <link rel="stylesheet" href="main-scss/main.min.css" />
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.5/dist/sweetalert2.min.css"> -->
+    <!-- responsive -->
+
+    <!-- ? Favicon -->
+    <link rel="icon" href="../image/logo.png" type="image" />
+    <!-- ? Favicon -->
+</head>
+
+<body>
+    <main class="d-flex sidemobile p-0">
+        <!---------------------- start sidebar -------------------------------------------->
+        <section class="sidebar open">
+            <ul class="
+          nav nav-pills
+          flex-column
+          mb-sm-auto mb-0
+          align-items-center align-items-sm-start
+        " id="menu">
+                <!-- <div class="image_logo">
+                    <img src="../image/logo.png" alt="logo_sidebar" class="logo" />
+                </div> -->
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link align-middle">
+                        <img src="image/home-icon.png" alt="icon" />
+                        <span>الرئيسية</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="cases.html" class="nav-link align-middle">
+                        <img src="/image/judge-icon.png" alt="icon" />
+                        <span>القضايا</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="clients.html" class="nav-link align-middle">
+                        <img src="image/profile-icon.png" alt="icon" />
+                        <span> العملاء</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#submenulibrary" data-bs-toggle="collapse"
+                        class="nav-link accordion-button align-middle collapsed">
+                        <img src="image/clipboard-icon.png" alt="icon" />
+                        <span>التقارير</span>
+                        <i class="fa-solid fa-angle-up"></i>
+                    </a>
+                    <ul class="collapse flex-column" id="submenulibrary" data-bs-parent="#menu">
+                        <div class="close">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                        <li>
+                            <a href="exports-pills.html" class="nav-link">
+                                <i class="fa-solid fa-circle dot"></i>
+                                <span>تقارير الصادرات</span></a>
+                        </li>
+                        <li>
+                            <a href="import-pills.html" class="nav-link">
+                                <i class="fa-solid fa-circle dot"></i>
+                                <span> تقارير الواردات</span></a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a href="consultants.html" class="nav-link align-middle">
+                        <img src="image/note-icon.png" alt="icon" />
+                        <span>الاستشارات</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="acccountant-sucerty.html" class="nav-link align-middle">
+                        <img src="image/menu-board-icon.png" alt="icon" />
+                        <span> التقويم</span>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#submenuAccountant" data-bs-toggle="collapse"
+                        class="nav-link accordion-button align-middle collapsed">
+                        <img src="/image/moneys-icon.png" alt="icon" />
+                        <span> الحسابات المالية</span>
+                        <i class="fa-solid fa-angle-up"></i>
+                    </a>
+                    <ul class="collapse flex-column" id="submenuAccountant" data-bs-parent="#menu">
+                        <div class="close">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                        <li>
+                            <a href="exports-pills.html" class="nav-link">
+                                <i class="fa-solid fa-circle dot"></i>
+                                <span> سندات الصرف</span></a>
+                        </li>
+                        <li>
+                            <a href="import-pills.html" class="nav-link">
+                                <i class="fa-solid fa-circle dot"></i>
+                                <span> الفواتير</span></a>
+
+                        </li>
+                        <li>
+                            <a href="import-pills.html" class="nav-link">
+                                <i class="fa-solid fa-circle dot"></i>
+                                <span> الدخل الشهري</span></a>
+
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                     <a href="tasks.html" class="nav-link align-middle">
+                        <img src="/image/task-square-icon.png" alt="icon" />
+                        <span> مهام المكتب</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="clerks.html" class="nav-link align-middle">
+                        <img src="/image/briefcase-icon.png" alt="icon" />
+                        <span> الموظفين</span>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#submenuSitting" data-bs-toggle="collapse"
+                        class="nav-link accordion-button align-middle collapsed">
+                        <img src="/image/briefcase-icon.png" alt="icon" />
+                        <span> اعدادات العمل</span>
+                        <i class="fa-solid fa-angle-up"></i>
+                    </a>
+                    <ul class="collapse flex-column" id="submenuSitting" data-bs-parent="#menu">
+                        <div class="close">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                        <li>
+                            <a href="landing-page.html" class="nav-link">
+                                <i class="fa-solid fa-circle dot"></i>
+                                <span> الصفحة التعريفية</span></a>
+                        </li>
+                        <li>
+                            <a href="guide.html" class="nav-link">
+                                <i class="fa-solid fa-circle dot"></i>
+                                <span> الدليل</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="settings.html" class="nav-link align-middle">
+                        <img src="/image/more-icon.png" alt="icon" />
+                        <span> الاعدادات العامة</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link align-middle">
+                        <img src="../image/icon-login.png" alt="icon" />
+                        <span> تسجيل الخروج</span>
+                    </a>
+                </li>
+
+
+            </ul>
+        </section>
+        <!---------------------- end sidebar -------------------------------------------->
+        <!---------------------- start main content -------------------------------------------->
+
+        <section class="index_cards">
+            <!---------------------- start nav -------------------------------------------->
+            <nav class="nav_top navbar">
+                <div class="container">
+                    <div class="menu">
+                        <i class="bi bi-list"></i>
+                    </div>
+                    <div class="info">
+                        <div class="notfication" onclick="showNotification()">
+                            <i class="bi bi-bell"></i>
+                            <span class="alerts">
+                                3
+                            </span>
+                        </div>
+
+                        <div class="img">
+                            <img src="../image/person.png" alt="person">
+                        </div>
+                        <div class="btn-group">
+                            <button class="btn  btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                محمد طارق
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li> <a href="acountant-settings.html">اعدادات الحساب</a> </li>
+                                <li> <a href="acccountant-sucerty.html">اعدادات الأمان</a> </li>
+                                <li onclick="acceptAlert()"> تسجيل الخروج </li>
+                            </ul>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </nav>
+            <ul class="notfication_list">
+                <h2>الأشعارات</h2>
+                <i class="bi bi-x close-icon" onclick="hideNotification()"></i>
+
+                <li class="unread" onclick="convertToRead(this)">
+                    <div class="info">
+                        <h6> text</h6>
+                        <span> 22/6/1993</span>
+                    </div>
+                    <div class="delete">
+                        <i class="bi bi-trash"></i>
+                    </div>
+                </li>
+                <li class="read">
+                    <div class="info">
+                        <h6> text</h6>
+                        <span> 22/6/1993</span>
+                    </div>
+                    <div class="delete">
+                        <i class="bi bi-trash"></i>
+                    </div>
+                </li>
+            </ul>
+            <!---------------------- finish nav -------------------------------------------->
+            <!---------------------- start content -------------------------------------------->
+            <div class="content_page">
+                <div class="container">
+                    <div class="main_topic">
+                        <h4> الموظفين / تفاصيل الموظف </h4>
+                    </div>
+                    <div class="detials_assistant detials_clerck">
+                        <div class="row">
+                            <div class="col-lg-9 col-md-8 col-12">
+                                <div class="content">
+                                    <div class="img">
+                                        <img src="../image/person.png" alt="person">
+                                    </div>
+                                    <div class="text">
+                                        <h2>احمد فتحي</h2>
+                                        <p> محامي بالنقض والدستوريه العليا</p>
+                                        <ul>
+                                            <li><i class="bi bi-telephone"></i> رقم الهاتف : <span>01323564887</span>
+                                            </li>
+                                            <li><i class="bi bi-envelope"></i> البريد الالكتروني :
+                                                <span>username12@gmail.com</span>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-12">
+                                <div class="button">
+                                    <a href="edit-clerck.html" class="btn edit"> <i class="bi bi-pencil"></i>
+                                        تعديل</a>
+                                    <button class="btn delete"> <i class="bi bi-trash3"></i> حذف </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- tabs section -->
+                    <ul class="nav nav_topic nav-pills mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                                aria-selected="true"> القضايا</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                                aria-selected="false"> المهام </button>
+                        </li>
+
+                    </ul>
+
+                    <div class="tab-content" id="pills-tabContent">
+                        <!-- pdf section -->
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                            aria-labelledby="pills-home-tab">
+                            <!-- search and filter section -->
+                            <div class="row">
+                                <div class="col-lg-7 col-md-6 col-12">
+                                    <div class="search_topic">
+                                        <form>
+                                            <div class="input-group">
+                                                <input class="form-control" type="text"
+                                                    placeholder=" ابحث بإسم العميل , القضية ">
+                                                <span class="icon_search"><i class="bi bi-search"></i></span>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-12">
+                                    <div class="dropdown dropdown_filter">
+                                        <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton2"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            كل القضايا
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                                            <li><a class="dropdown-item" href="#">مدفوع</a></li>
+                                            <li><a class="dropdown-item" href="#">مجاناً </a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-12">
+                                    <div class="dropdown dropdown_filter">
+                                        <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            القضايا الحالية
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                            <li><a class="dropdown-item" href="#">مدفوع</a></li>
+                                            <li><a class="dropdown-item" href="#">مجاناً </a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-1 col-md-4 col-12">
+                                    <div class="button">
+                                        <a class="btn first" href="add-case.html"> <i class="bi bi-plus"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- start clerks card -->
+                            <div class="row">
+                                <div class="col-lg-6  col-12">
+                                    <!-- progress card -->
+                                    <div class="card_topic_second">
+                                        <a href="detials-case.html">
+                                            <div class="header_card">
+                                                <div class="text">
+                                                    <h5> قضية الضرائب المرفوعة من السيد/ أحمد ابراهيم</h5>
+                                                    <span>قضية أموال عامة</span>
+                                                </div>
+                                                <div class=" badge bg-success">جاري العمل عليها</div>
+                                            </div>
+                                            <ul class="info">
+                                                <li><i class="bi bi-person"></i> العميل: <strong>احمد عادل</strong></li>
+                                                <li><i class="bi bi-calendar"></i> الجلسة القادمة: <strong> 22 مارس -
+                                                        8:30 م</strong></li>
+                                            </ul>
+                                            <div class="button w-100">
+                                                <a class="btn first w-100" href="detials-case.html"> عرض التفاصيل</a>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- progress card -->
+                                </div>
+
+                                <div class="col-lg-6  col-12">
+                                    <!-- new card -->
+                                    <div class="card_topic_second">
+                                        <a href="detials-case.html">
+                                            <div class="header_card">
+                                                <div class="text">
+                                                    <h5> قضية الضرائب المرفوعة من السيد/ أحمد ابراهيم</h5>
+                                                    <span>قضية أموال عامة</span>
+                                                </div>
+                                                <div class=" badge bg-primary"> قضية جديدة</div>
+                                            </div>
+                                            <ul class="info">
+                                                <li><i class="bi bi-person"></i> العميل: <strong>احمد عادل</strong></li>
+                                                <li><i class="bi bi-calendar"></i> الجلسة القادمة: <strong> 22 مارس -
+                                                        8:30 م</strong></li>
+                                            </ul>
+                                            <div class="button w-100">
+                                                <a class="btn first w-100" href="detials-case.html"> عرض التفاصيل</a>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- new card -->
+                                </div>
+
+                                <div class="col-lg-6  col-12">
+                                    <!-- finshed card -->
+                                    <div class="card_topic_second">
+                                        <a href="detials-case.html">
+                                            <div class="header_card">
+                                                <div class="text">
+                                                    <h5> قضية الضرائب المرفوعة من السيد/ أحمد ابراهيم</h5>
+                                                    <span>قضية أموال عامة</span>
+                                                </div>
+                                                <div class=" badge bg-danger"> قضية منتهية</div>
+                                            </div>
+                                            <ul class="info">
+                                                <li><i class="bi bi-person"></i> العميل: <strong>احمد عادل</strong></li>
+                                                <li><i class="bi bi-calendar"></i> الجلسة القادمة: <strong> 22 مارس -
+                                                        8:30 م</strong></li>
+                                            </ul>
+                                            <div class="button w-100">
+                                                <a class="btn first w-100" href="detials-case.html"> عرض التفاصيل</a>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- finshed card -->
+                                </div>
+                            </div>
+                            <!-- finish clerks card -->
+                            <!-- pagination -->
+                            <nav class="pagination_section">
+                                <ul class="pagination justify-content-center">
+                                    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                                </ul>
+                            </nav>
+                            <!-- pagination -->
+                        </div>
+                        <!-- case section -->
+                        <!-- office section -->
+                        <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                            aria-labelledby="pills-profile-tab">
+                            <!-- search and filter section -->
+                            <div class="row">
+                                <div class="col-lg-7 col-md-6 col-12">
+                                    <div class="search_topic">
+                                        <form>
+                                            <div class="input-group">
+                                                <input class="form-control" type="text"
+                                                    placeholder=" ابحث بإسم المهمة او المحامي">
+                                                <span class="icon_search"><i class="bi bi-search"></i></span>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-12">
+                                    <div class="dropdown dropdown_filter">
+                                        <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton2"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            كل المهام
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                                            <li><a class="dropdown-item" href="#">مدفوع</a></li>
+                                            <li><a class="dropdown-item" href="#">مجاناً </a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-12">
+                                    <div class="dropdown dropdown_filter">
+                                        <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            المهام الحالية
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                            <li><a class="dropdown-item" href="#">مدفوع</a></li>
+                                            <li><a class="dropdown-item" href="#">مجاناً </a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-1 col-md-4 col-12">
+                                    <div class="button">
+                                        <a class="btn first" href="add-tasks.html"> <i class="bi bi-plus"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- start clerks card -->
+                            <div class="row">
+                                <div class="col-lg-6  col-12">
+                                    <!-- progress task -->
+                                    <div class="card_topic_second">
+                                        <a href="detials-tasks.html">
+                                            <div class="header_card">
+                                                <div class="text">
+                                                    <h5> توكيل بوكالة الاستاذ احمد عادل بالشهر العقاري بالحكم في قضية
+                                                        الضرائب</h5>
+                                                   
+                                                </div>
+                                                <div class=" badge bg-success">جاري العمل عليها</div>
+                                            </div>
+                                            <ul class="info">
+                                                <li><i class="bi bi-person"></i> العميل: <strong>احمد عادل</strong></li>
+                                                <li><i class="bi bi-calendar"></i> الجلسة القادمة: <strong> 22 مارس -
+                                                        8:30 م</strong></li>
+                                            </ul>
+                                            <div class="button w-100">
+                                                <a class="btn first w-100" href="detials-tasks.html"> عرض التفاصيل</a>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- progress task -->
+                                </div>
+
+                                <div class="col-lg-6  col-12">
+                                    <!-- new task -->
+                                    <div class="card_topic_second">
+                                        <a href="detials-tasks.html">
+                                            <div class="header_card">
+                                                <div class="text">
+                                                    <h5> قضية الضرائب المرفوعة من السيد/ أحمد ابراهيم</h5>
+                                                  
+                                                </div>
+                                                <div class=" badge bg-primary"> مهمة جديدة</div>
+                                            </div>
+                                            <ul class="info">
+                                                <li><i class="bi bi-person"></i> العميل: <strong>احمد عادل</strong></li>
+                                                <li><i class="bi bi-calendar"></i> الجلسة القادمة: <strong> 22 مارس -
+                                                        8:30 م</strong></li>
+                                            </ul>
+                                            <div class="button w-100">
+                                                <a class="btn first w-100" href="detials-tasks.html"> عرض التفاصيل</a>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- new task -->
+                                </div>
+
+                                <div class="col-lg-6  col-12">
+                                    <!-- finshed rask -->
+                                    <div class="card_topic_second">
+                                        <a href="detials-tasks.html">
+                                            <div class="header_card">
+                                                <div class="text">
+                                                   <h5>توكيل بوكالة الاستاذ احمد عادل بالشهر العقاري بالحكم في قضية الضرائب</h5>
+                                                    
+                                                </div>
+                                                <div class=" badge bg-danger">  مهمة منتهية</div>
+                                            </div>
+                                            <ul class="info">
+                                                <li><i class="bi bi-person"></i> العميل: <strong>احمد عادل</strong></li>
+                                                <li><i class="bi bi-calendar"></i> الجلسة القادمة: <strong> 22 مارس -
+                                                        8:30 م</strong></li>
+                                            </ul>
+                                            <div class="button w-100">
+                                                <a class="btn first w-100" href="detials-tasks.html"> عرض التفاصيل</a>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- finshed task -->
+                                </div>
+                            </div>
+                            <!-- finish clerks card -->
+                            <!-- pagination -->
+                            <nav class="pagination_section">
+                                <ul class="pagination justify-content-center">
+                                    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                                </ul>
+                            </nav>
+                            <!-- pagination -->
+                        </div>
+                        <!-- work section -->
+
+                    </div>
+                    <!-- tabs section -->
+                </div>
+            </div>
+
+
+
+            <!---------------------- finish  content -------------------------------------------->
+        </section>
+        <!---------------------- finish main content -------------------------------------------->
+    </main>
+    <!---------------------- modal -------------------------------------------->
+
+    <div class="modal modal_assistant fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="content">
+                        <h4>تم اضافة الموظف بنجاح الى قائمة الموظفين</h4>
+                        <p>لقد قمت الآن باضافة الموظف الى قائمة الموظفين لديك ويمكنك التعديل على البيانات فيما بعد</p>
+                        <div class="button">
+                            <a href="detials-assistant.html" class="btn first">عرض التفاصيل </a>
+                            <a href="edit-assistant.html" class="btn second">تعديل البيانات</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!---------------------- modal -------------------------------------------->
+
+    <!-- main js -->
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- main js -->
+    <!-- sweet alert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- sweet alert -->
+    <!-- upload image -->
+    <script>
+        const currentImage = document.getElementById("current-image");
+        const uploadIcon = document.getElementById("upload-icon");
+        const imageInput = document.getElementById("image-input");
+
+        uploadIcon.addEventListener("click", () => {
+            imageInput.click();
+        });
+
+        imageInput.addEventListener("change", handleImageUpload);
+
+        function handleImageUpload(event) {
+            const file = event.target.files[0];
+            const reader = new FileReader();
+
+            reader.onload = function (e) {
+                currentImage.src = e.target.result;
+            };
+
+            reader.readAsDataURL(file);
+        }
+    </script>
+    <!-- upload image -->
+
+
+
+</body>
+
+</html>

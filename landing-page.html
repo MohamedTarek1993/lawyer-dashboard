@@ -120,7 +120,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="office-job.html" class="nav-link align-middle">
+                     <a href="tasks.html" class="nav-link align-middle">
                         <img src="/image/task-square-icon.png" alt="icon" />
                         <span> مهام المكتب</span>
                     </a>
@@ -272,16 +272,7 @@
                                     <span class="alert alert-danger mt-3">* يمكنك إضافة حتي 4 صور *</span>
                                 </div>
                                 <!-- start input -->
-                                   <!-- start input -->
-                                   <div class="row">
-                                    <div class="col-12">
-                                        <div class="input-group">
-                                            <label class="form-label">  لينك الفيديو </label>
-                                            <input type="url" class="form-control">
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- FINISH input -->
+
                                 <!-- start input -->
                                 <div class="row">
                                     <div class="col-12">
@@ -303,17 +294,17 @@
                                 </div>
                                 <!-- FINISH input -->
                                 <!-- start input -->
-                                <div class="row py-4">
+                                <div class="row ">
                                     <div class="col-lg-6 col-12">
                                         <div class="button w-100">
-                                            <button type="button" class="btn first w-100">
+                                            <button type="button" class="btn first w-100 mt-3">
                                                 حفظ التعديلات</button>
                                         </div>
 
                                     </div>
                                     <div class="col-lg-6 col-12">
                                         <div class="button w-100">
-                                            <button type="button" class="btn second w-100">
+                                            <button type="button" class="btn second w-100 mt-3">
                                                 الغاء</button>
                                         </div>
                                     </div>
@@ -340,30 +331,126 @@
                             <form class="form_topic">
                                 <!-- start input -->
                                 <div class="row">
-                                    <div class="input-group input-group-upload">
-                                        <img id="current-image-service" class="profile-image" src="../image/upload.png"
-                                            alt="Profile Image">
-                                        <div class="upload-icon" id="upload-icon-service">
-                                            <i class="bi bi-camera-fill"></i>
-                                        </div>
+                                    <div class="col-6">
+                                        <div class="input-group input-group-upload">
+                                            <img id="current-image-service" class="profile-image"
+                                                src="../image/upload.png" alt="Profile Image">
+                                            <div class="upload-icon" id="upload-icon-service">
+                                                <i class="bi bi-camera-fill"></i>
+                                            </div>
 
-                                        <input id="image-input-service" class="hidden" type="file" accept="image/*">
+                                            <input id="image-input-service" class="hidden" type="file" accept="image/*">
+                                        </div>
                                     </div>
+                                    <!-- start input -->
+                                    <div class="col-6">
+                                        <div class="input-group">
+                                            <label class="form-label"> أرفع فيديو </label>
+
+                                            <div class="file-upload-wrapper"
+                                                data-text="اسحب الفيديو التى تريد اضافتها  او قم بفتحها من هنا">
+                                                <input required name="file-upload-field form-control" type="file"
+                                                    class="file-upload-field" value="" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- finish input -->
                                 </div>
                                 <!-- finish input -->
-
                                 <!-- start input -->
-                                <div class="row py-4">
+                                <div class="row">
+
+                                </div>
+                                <!-- FINISH input -->
+                                <!-- start input -->
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <label class="form-label"> العنوان الرئيسي </label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- FINISH input -->
+                                <!-- start input -->
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <label class="form-label"> العنوان الفرعي </label>
+                                            <textarea class="form-control"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- FINISH input -->
+                                <!-- start add abouts -->
+                                <button type="button" class="btn first" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">
+                                    اضف نبذة اخري
+                                </button>
+                                <!-- FINISH add abouts -->
+                                <!-- where append new abouts -->
+                                <div class="row py-3">
+                                    <div class="col-lg-6 col-12">
+                                        <div class="about_card_append">
+                                            <div class="img">
+                                                <img src="image/company.png" alt="about">
+                                            </div>
+                                            <div class="text">
+                                                <div class="input-group">
+                                                    <label class="form-label">
+                                                        العنوان الرئيسي
+                                                    </label>
+                                                    <input class="form-control" disabled type="text">
+                                                </div>
+                                                <div class="input-group">
+                                                    <label class="form-label">
+                                                        العنوان الفرعي
+                                                    </label>
+                                                    <textarea disabled class="form-control"> </textarea>
+                                                </div>
+                                            </div>
+                                            <span class="close">
+                                                <i class="bi bi-x"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-12">
+                                        <div class="about_card_append">
+                                            <div class="img">
+                                                <img src="image/company.png" alt="about">
+                                            </div>
+                                            <div class="text">
+                                                <div class="input-group">
+                                                    <label class="form-label">
+                                                        العنوان الرئيسي
+                                                    </label>
+                                                    <input class="form-control" disabled type="text">
+                                                </div>
+                                                <div class="input-group">
+                                                    <label class="form-label">
+                                                        العنوان الفرعي
+                                                    </label>
+                                                    <textarea disabled class="form-control"> </textarea>
+                                                </div>
+                                            </div>
+                                            <span class="close">
+                                                <i class="bi bi-x"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- where append new abouts -->
+                                <!-- start input -->
+                                <div class="row ">
                                     <div class="col-lg-6 col-12">
                                         <div class="button w-100">
-                                            <button type="button" class="btn first w-100">
+                                            <button type="button" class="btn first w-100 mt-3">
                                                 حفظ التعديلات</button>
                                         </div>
-
                                     </div>
                                     <div class="col-lg-6 col-12">
                                         <div class="button w-100">
-                                            <button type="button" class="btn second w-100">
+                                            <button type="button" class="btn second w-100 mt-3 ">
                                                 الغاء</button>
                                         </div>
                                     </div>
@@ -386,19 +473,94 @@
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
                             <form class="form_topic">
-
                                 <!-- start input -->
-                                <div class="row py-4">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <label class="form-label"> العنوان الرئيسي </label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- finish input -->
+                                <!-- start input -->
+                                <div class="row">
+                                    <div class="input-group">
+                                        <label class="form-label"> العنوان الفرعي </label>
+                                        <textarea class="form-control"></textarea>
+                                    </div>
+                                </div>
+                                <!-- finish input -->
+                                <!-- start add adventages -->
+                                <button type="button" class="btn first" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal1">
+                                    اضف ميزة اخري
+                                </button>
+                                <!-- FINISH add adventages -->
+                                <!-- where append new adventages -->
+                                <div class="row py-3">
+                                    <div class="col-lg-6 col-12">
+                                        <div class="about_card_append">
+                                            <div class="img">
+                                                <img src="image/company.png" alt="about">
+                                            </div>
+                                            <div class="text">
+                                                <div class="input-group">
+                                                    <label class="form-label">
+                                                        العنوان الرئيسي
+                                                    </label>
+                                                    <input class="form-control" disabled type="text">
+                                                </div>
+                                                <div class="input-group">
+                                                    <label class="form-label">
+                                                        العنوان الفرعي
+                                                    </label>
+                                                    <textarea disabled class="form-control"> </textarea>
+                                                </div>
+                                            </div>
+                                            <span class="close">
+                                                <i class="bi bi-x"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-12">
+                                        <div class="about_card_append">
+                                            <div class="img">
+                                                <img src="image/company.png" alt="about">
+                                            </div>
+                                            <div class="text">
+                                                <div class="input-group">
+                                                    <label class="form-label">
+                                                        العنوان الرئيسي
+                                                    </label>
+                                                    <input class="form-control" disabled type="text">
+                                                </div>
+                                                <div class="input-group">
+                                                    <label class="form-label">
+                                                        العنوان الفرعي
+                                                    </label>
+                                                    <textarea disabled class="form-control"> </textarea>
+                                                </div>
+                                            </div>
+                                            <span class="close">
+                                                <i class="bi bi-x"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- where append new adventages -->
+                                <!-- start input -->
+                                <div class="row ">
                                     <div class="col-lg-6 col-12">
                                         <div class="button w-100">
-                                            <button type="button" class="btn first w-100">
+                                            <button type="button" class="btn first w-100 mt-3">
                                                 حفظ التعديلات</button>
                                         </div>
 
                                     </div>
                                     <div class="col-lg-6 col-12">
                                         <div class="button w-100">
-                                            <button type="button" class="btn second w-100">
+                                            <button type="button" class="btn second w-100 mt-3">
                                                 الغاء</button>
                                         </div>
                                     </div>
@@ -422,13 +584,87 @@
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
                             <form class="form_topic">
-
                                 <!-- start input -->
                                 <div class="row">
                                     <div class="col-12">
                                         <div class="input-group">
                                             <label class="form-label"> العنوان الرئيسي </label>
                                             <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- finish input -->
+                                <!-- start add adventages -->
+                                <button type="button" class="btn first" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal2">
+                                    اضف خدمة اخري
+                                </button>
+                                <!-- FINISH add adventages -->
+                                <!-- where append new adventages -->
+                                <div class="row py-3">
+                                    <div class="col-lg-6 col-12">
+                                        <div class="about_card_append">
+                                            <div class="img">
+                                                <img src="image/company.png" alt="about">
+                                            </div>
+                                            <div class="text">
+                                                <div class="input-group">
+                                                    <label class="form-label">
+                                                        العنوان الرئيسي
+                                                    </label>
+                                                    <input class="form-control" disabled type="text">
+                                                </div>
+                                                <div class="input-group">
+                                                    <label class="form-label">
+                                                        العنوان الفرعي
+                                                    </label>
+                                                    <textarea disabled class="form-control"> </textarea>
+                                                </div>
+                                            </div>
+                                            <span class="close">
+                                                <i class="bi bi-x"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-12">
+                                        <div class="about_card_append">
+                                            <div class="img">
+                                                <img src="image/company.png" alt="about">
+                                            </div>
+                                            <div class="text">
+                                                <div class="input-group">
+                                                    <label class="form-label">
+                                                        العنوان الرئيسي
+                                                    </label>
+                                                    <input class="form-control" disabled type="text">
+                                                </div>
+                                                <div class="input-group">
+                                                    <label class="form-label">
+                                                        العنوان الفرعي
+                                                    </label>
+                                                    <textarea disabled class="form-control"> </textarea>
+                                                </div>
+                                            </div>
+                                            <span class="close">
+                                                <i class="bi bi-x"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- where append new adventages -->
+                                <!-- start input -->
+                                <div class="row ">
+                                    <div class="col-lg-6 col-12">
+                                        <div class="button w-100">
+                                            <button type="button" class="btn first w-100 mt-3">
+                                                حفظ التعديلات</button>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-6 col-12">
+                                        <div class="button w-100">
+                                            <button type="button" class="btn second w-100 mt-3">
+                                                الغاء</button>
                                         </div>
                                     </div>
                                 </div>
@@ -678,7 +914,196 @@
         </section>
         <!---------------------- finish main content -------------------------------------------->
     </main>
-    <!---------------------- finish footer -------------------------------------------->
+    <!-- modal add abouts -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">أضف نبذة أخري </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="form_topic">
+                        <!-- start input -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="input-group input-group-upload">
+                                    <img id="current-image-about-more" class="profile-image" src="../image/upload.png"
+                                        alt="Profile Image">
+                                    <div class="upload-icon" id="upload-icon-about-more">
+                                        <i class="bi bi-camera-fill"></i>
+                                    </div>
+
+                                    <input id="image-input-about-more" class="hidden" type="file" accept="image/*">
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- finish input -->
+                        <!-- start input -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="input-group">
+                                    <label class="form-label"> العنوان الرئيسي </label>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FINISH input -->
+                        <!-- start input -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="input-group">
+                                    <label class="form-label"> العنوان الفرعي </label>
+                                    <textarea class="form-control"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FINISH input -->
+                        <div class="row py-2">
+                            <div class=" col-12">
+                                <div class="button w-100">
+                                    <button type="button" class="btn first w-100">
+                                        حفظ التعديلات</button>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- modal add abouts -->
+    <!-- modal add adventages -->
+    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModal1Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModal1Label">أضف ميزة أخري </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="form_topic">
+                        <!-- start input -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="input-group input-group-upload">
+                                    <img id="current-image-adventages-more" class="profile-image"
+                                        src="../image/upload.png" alt="Profile Image">
+                                    <div class="upload-icon" id="upload-icon-adventages-more">
+                                        <i class="bi bi-camera-fill"></i>
+                                    </div>
+
+                                    <input id="image-input-adventages-more" class="hidden" type="file" accept="image/*">
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- finish input -->
+                        <!-- start input -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="input-group">
+                                    <label class="form-label"> العنوان الرئيسي </label>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FINISH input -->
+                        <!-- start input -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="input-group">
+                                    <label class="form-label"> العنوان الفرعي </label>
+                                    <textarea class="form-control"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FINISH input -->
+                        <div class="row py-2">
+                            <div class=" col-12">
+                                <div class="button w-100">
+                                    <button type="button" class="btn first w-100">
+                                        حفظ التعديلات</button>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- modal add adventages -->
+
+     <!-- modal add service -->
+     <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModal2Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModal2Label">أضف خدمة أخري </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="form_topic">
+                        <!-- start input -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="input-group input-group-upload">
+                                    <img id="current-image-adventages-more" class="profile-image"
+                                        src="../image/upload.png" alt="Profile Image">
+                                    <div class="upload-icon" id="upload-icon-adventages-more">
+                                        <i class="bi bi-camera-fill"></i>
+                                    </div>
+
+                                    <input id="image-input-adventages-more" class="hidden" type="file" accept="image/*">
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- finish input -->
+                        <!-- start input -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="input-group">
+                                    <label class="form-label"> العنوان الرئيسي </label>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FINISH input -->
+                        <!-- start input -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="input-group">
+                                    <label class="form-label"> العنوان الفرعي </label>
+                                    <textarea class="form-control"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FINISH input -->
+                        <div class="row py-2">
+                            <div class=" col-12">
+                                <div class="button w-100">
+                                    <button type="button" class="btn first w-100">
+                                        حفظ التعديلات</button>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- modal add service -->
     <!-- main js -->
 
     <script src="js/jquery-3.7.1.min.js"></script>
@@ -762,6 +1187,72 @@
         }
     </script>
     <!-- upload image ABOUT -->
+    <!-- upload image ABOUT add  -->
+    <script>
+        const currentImageAbout = document.getElementById("current-image-about-more");
+        const uploadIconAbout = document.getElementById("upload-icon-about-more");
+        const imageInputAbout = document.getElementById("image-input-about-more");
+
+        uploadIconAbout.addEventListener("click", () => {
+            imageInputAbout.click();
+        });
+
+        imageInputAbout.addEventListener("change", handleImageUpload);
+
+        function handleImageUpload(event) {
+            const file = event.target.files[0];
+            const reader = new FileReader();
+
+            reader.onload = function (e) {
+                currentImageAbout.src = e.target.result;
+            };
+
+            reader.readAsDataURL(file);
+        }
+    </script>
+    <!-- upload image ABOUT add -->
+    <!-- upload image adventages add  -->
+    <script>
+        const currentImageAdventages = document.getElementById("current-image-adventages-more");
+        const uploadIconAdventages = document.getElementById("upload-icon-adventages-more");
+        const imageInputAdventages = document.getElementById("image-input-adventages-more");
+        uploadIconAdventages.addEventListener("click", () => {
+            imageInputAdventages.click();
+        });
+        imageInputAdventages.addEventListener("change", handleImageUpload);
+        function handleImageUpload(event) {
+            const file = event.target.files[0];
+            const reader = new FileReader();
+
+            reader.onload = function (e) {
+                currentImageAdventages.src = e.target.result;
+            };
+
+            reader.readAsDataURL(file);
+        }
+    </script>
+    <!-- upload image adventages add -->
+     <!-- upload image adventages add  -->
+     <script>
+        const currentImageAddService = document.getElementById("current-image-service-more");
+        const uploadIconddService = document.getElementById("upload-icon-service-more");
+        const imageInputddService = document.getElementById("image-input-service-more");
+        uploadIconddService.addEventListener("click", () => {
+            imageInputddService.click();
+        });
+        imageInputddService.addEventListener("change", handleImageUpload);
+        function handleImageUpload(event) {
+            const file = event.target.files[0];
+            const reader = new FileReader();
+
+            reader.onload = function (e) {
+                currentImageAddService.src = e.target.result;
+            };
+
+            reader.readAsDataURL(file);
+        }
+    </script>
+    <!-- upload image adventages add -->
     <!-- add anthe phone -->
     <script>
         $(document).ready(function () {
@@ -892,7 +1383,14 @@
 
             // Check if files are selected
             if (input.files && input.files.length > 0) {
-                for (let i = 0; i < input.files.length; i++) {
+                // Get the number of currently displayed images
+                const currentImageCount = imageContainer.getElementsByClassName('img_card').length;
+
+                // Calculate the remaining slots for images
+                const remainingSlots = 4 - currentImageCount;
+
+                // Iterate over the selected files, up to the remaining slots
+                for (let i = 0; i < input.files.length && i < remainingSlots; i++) {
                     const reader = new FileReader();
 
                     reader.onload = function (e) {
@@ -923,7 +1421,15 @@
             }
         }
     </script>
+
     <!-- upload and show many images hero section -->
+    <!-- upload file -->
+    <script>
+        $("form").on("change", ".file-upload-field", function () {
+            $(this).parent(".file-upload-wrapper").attr("data-text", $(this).val().replace(/.*(\/|\\)/, ''));
+        });
+    </script>
+    <!-- upload file -->
 </body>
 
 </html>

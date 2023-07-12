@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> الاعدادات العامة</title>
+    <title> المهام</title>
     <!-- main css -->
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -120,7 +120,7 @@
                 </li>
 
                 <li class="nav-item">
-                     <a href="tasks.html" class="nav-link align-middle">
+                    <a href="tasks.html" class="nav-link align-middle">
                         <img src="/image/task-square-icon.png" alt="icon" />
                         <span> مهام المكتب</span>
                     </a>
@@ -237,156 +237,157 @@
             <div class="content_page">
                 <div class="container">
                     <div class="main_topic">
-                        <h4> الاعدادات العامة </h4>
+                        <h4> كل المهام </h4>
+                        <a class="btn first" href="add-tasks.html"> <i class="bi bi-plus"></i> مهمة جديدة </a>
                     </div>
-                    <form class="form_topic">
 
-                        <p class="form_pargraph">هذه البيانات التي أدخلتها عند التسجيل لا تظهر إلى أي من المستخدمين
-                            الآخرين</p>
-                        <!-- start input -->
-                        <div class="input-group input-group-upload">
-                            <img id="current-image" class="profile-image" src="image/upload.png" alt="Profile Image">
-                            <div class="upload-icon" id="upload-icon">
-                                <i class="bi bi-camera-fill"></i>
-                            </div>
-                            <input id="image-input" class="hidden" type="file" accept="image/*">
-                        </div>
-                        <!-- finish input -->
-                        <!-- start input -->
-                        <div class="row">
-                            <div class="col-lg-6 col-12">
-                                <div class="input-group">
-                                    <label class="form-label"> الاسم بالكامل </label>
-                                    <input required type="text" class="form-control">
-                                </div>
-                            </div>
-                            <!-- finish input -->
-                            <!-- start input -->
-                            <div class="col-lg-6 col-12">
-                                <div class="input-group">
-                                    <label class="form-label"> تاريخ الميلاد </label>
-                                    <input required type="date" class="form-control">
-                                </div>
+                    <!-- search and filter section -->
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-12">
+                            <div class="search_topic">
+                                <form>
+                                    <div class="input-group">
+                                        <input class="form-control" type="text"
+                                            placeholder=" ابحث بإسم المهمة او المحامي">
+                                        <span class="icon_search"><i class="bi bi-search"></i></span>
+                                    </div>
+                                </form>
                             </div>
                         </div>
-                        <!-- finish input -->
-                        <!-- start input -->
-                        <div class="row">
-                            <div class="col-lg-6 col-12">
-                                <div class="input-group">
-                                    <label class="form-label"> الوظيفة</label>
-                                    <select required class="selectpicker" data-placeholder=" حدد  الوظيفة"
-                                        data-selected-text-format="count > 1" data-icon="bi bi-trash"
-                                        data-live-search="true">
-                                        <option value="1">One</option>
-                                        <option value="2">Two</option>
-                                        <option value="3">Three</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <!-- finish input -->
-                            <!-- start input -->
-                            <div class="col-lg-6 col-12">
-                                <div class="input-group">
-                                    <label class="form-label"> نوع الوظيفة</label>
-                                    <select required class="selectpicker" data-placeholder=" حدد  الوظيفة"
-                                        data-selected-text-format="count > 1" data-icon="bi bi-trash"
-                                        data-live-search="true">
-                                        <option value="1">One</option>
-                                        <option value="2">Two</option>
-                                        <option value="3">Three</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <!-- finish input -->
-                        </div>
-                        <!-- start input -->
-                        <div class="row py-3">
-                            <div class="col-12">
-                                <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                                    class="btn first">الاضافة والحفظ</button>
+                        <div class="col-lg-2 col-md-6 col-12">
+                            <div class="dropdown dropdown_filter">
+                                <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton2"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    كل المهام
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                                    <li><a class="dropdown-item" href="#">مدفوع</a></li>
+                                    <li><a class="dropdown-item" href="#">مجاناً </a></li>
+
+                                </ul>
                             </div>
                         </div>
-                        <!-- finish input -->
-                    </form>
+                        <div class="col-lg-2 col-md-6 col-12">
+                            <div class="dropdown dropdown_filter">
+                                <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    المهام الحالية
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="#">مدفوع</a></li>
+                                    <li><a class="dropdown-item" href="#">مجاناً </a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6 col-12">
+                            <input type="date" class="form-control" id="dateInput">
+                        </div>
+                    </div>
+
+                    <!-- start clerks card -->
+                    <div class="row">
+                        <div class="col-lg-6  col-12">
+                            <!-- progress task -->
+                            <div class="card_topic_second">
+                                <a href="detials-tasks.html">
+                                    <div class="header_card">
+                                        <div class="text">
+                                            <h5> توكيل بوكالة الاستاذ احمد عادل بالشهر العقاري بالحكم في قضية
+                                                الضرائب</h5>
+
+                                        </div>
+                                        <div class=" badge bg-success">جاري العمل عليها</div>
+                                    </div>
+                                    <ul class="info">
+                                        <li><i class="bi bi-person"></i> العميل: <strong>احمد عادل</strong></li>
+                                        <li><i class="bi bi-calendar"></i> الجلسة القادمة: <strong> 22 مارس -
+                                                8:30 م</strong></li>
+                                    </ul>
+                                    <div class="button w-100">
+                                        <a class="btn first w-100" href="detials-tasks.html"> عرض التفاصيل</a>
+                                        <a class="btn second w-100" href="edit-tasks.html"> تعديل البيانات</a>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- progress task -->
+                        </div>
+
+                        <div class="col-lg-6  col-12">
+                            <!-- new task -->
+                            <div class="card_topic_second">
+                                <a href="detials-tasks.html">
+                                    <div class="header_card">
+                                        <div class="text">
+                                            <h5> قضية الضرائب المرفوعة من السيد/ أحمد ابراهيم</h5>
+
+                                        </div>
+                                        <div class=" badge bg-primary"> مهمة جديدة</div>
+                                    </div>
+                                    <ul class="info">
+                                        <li><i class="bi bi-person"></i> العميل: <strong>احمد عادل</strong></li>
+                                        <li><i class="bi bi-calendar"></i> الجلسة القادمة: <strong> 22 مارس -
+                                                8:30 م</strong></li>
+                                    </ul>
+                                    <div class="button w-100">
+                                        <a class="btn first w-100" href="detials-tasks.html"> عرض التفاصيل</a>
+                                        <a class="btn second w-100" href="edit-tasks.html"> تعديل البيانات</a>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- new task -->
+                        </div>
+
+                        <div class="col-lg-6  col-12">
+                            <!-- finshed rask -->
+                            <div class="card_topic_second">
+                                <a href="detials-tasks.html">
+                                    <div class="header_card">
+                                        <div class="text">
+                                            <h5>توكيل بوكالة الاستاذ احمد عادل بالشهر العقاري بالحكم في قضية الضرائب
+                                            </h5>
+
+                                        </div>
+                                        <div class=" badge bg-danger"> مهمة منتهية</div>
+                                    </div>
+                                    <ul class="info">
+                                        <li><i class="bi bi-person"></i> العميل: <strong>احمد عادل</strong></li>
+                                        <li><i class="bi bi-calendar"></i> الجلسة القادمة: <strong> 22 مارس -
+                                                8:30 م</strong></li>
+                                    </ul>
+                                    <div class="button w-100">
+                                        <a class="btn first w-100" href="detials-tasks.html"> عرض التفاصيل</a>
+                                        <a class="btn second w-100" href="edit-tasks.html"> تعديل البيانات</a>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- finshed task -->
+                        </div>
+                    </div>
+                    <!-- finish clerks card -->
+                    <!-- pagination -->
+                    <nav class="pagination_section">
+                        <ul class="pagination justify-content-center">
+                            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                        </ul>
+                    </nav>
+                    <!-- pagination -->
+
+
                 </div>
             </div>
 
 
-            <div class="content_page">
-                <div class="container">
-                    <div class="main_topic">
-                        <h4> اعدادات الامان </h4>
-                    </div>
-                    <form class="form_topic">
-                        <p class="form_pargraph">هذه البيانات التي أدخلتها عند التسجيل لا تظهر إلى أي من المستخدمين
-                            الآخرين</p>
-                        <!-- start input -->
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="input-group">
-                                    <label class="form-label"> كلمة المرور الحالية </label>
-                                    <input required id="password" type="password" class="form-control"
-                                        placeholder="ادخل كلمة المرور الحالية">
-                                    <span class="lock-icon" onclick="togglePasswordVisibility()">
-                                        <i id="lockIcon" class="bi bi-eye"></i>
 
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- start input -->
-                        <!-- start input -->
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="input-group">
-                                    <label class="form-label"> كلمة المرور الجديدة </label>
-                                    <input required id="password1" type="password" class="form-control"
-                                        placeholder="ادخل كلمة المرور الحالية">
-                                    <span class="lock-icon" onclick="toggleNewPasswordVisibility()">
-                                        <i id="lockIcon1" class="bi bi-eye"></i>
-
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- start input -->
-
-                        <!-- start input -->
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="input-group">
-                                    <label class="form-label"> تأكيد كلمة المرور </label>
-                                    <input required id="password2" type="password" class="form-control"
-                                        placeholder="ادخل كلمة المرور الحالية" oninput="checkPasswordMatch()">
-                                    <span class="lock-icon" onclick="toggleNewPasswordConfirmVisibility()">
-                                        <i id="lockIcon2" class="bi bi-eye"></i>
-
-                                    </span>
-                                </div>
-                            </div>
-                            <small id="passwordError" style="color: red; display: none;">كلمة المرور غير
-                                متطابقة.</small>
-                            <small id="passwordMatch" style="color: green; display: none;">كلمة المرور متطابقة.</small>
-
-                        </div>
-                        <!-- finish input -->
-                        <!-- start input -->
-                        <div class="row py-3">
-                            <div class="col-12">
-                                <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                                    class="btn first">الاضافة والحفظ</button>
-                            </div>
-                        </div>
-                        <!-- finish input -->
-                    </form>
-                </div>
-            </div>
             <!---------------------- finish  content -------------------------------------------->
         </section>
         <!---------------------- finish main content -------------------------------------------->
     </main>
-    <!---------------------- finish footer -------------------------------------------->
+
     <!-- main js -->
 
     <script src="js/jquery-3.7.1.min.js"></script>
@@ -395,93 +396,45 @@
     <script src="js/bootstrap-select.min.js"></script>
     <script src="js/main.js"></script>
     <!-- main js -->
-    <!-- upload image -->
-    <script>
-        const currentImage = document.getElementById("current-image");
-        const uploadIcon = document.getElementById("upload-icon");
-        const imageInput = document.getElementById("image-input");
+    <!-- sweet alert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- sweet alert -->
 
-        uploadIcon.addEventListener("click", () => {
-            imageInput.click();
+
+
+    <!-- show / hide edit menu in card -->
+    <script>
+        function toggleMenu(menuId) {
+            var menu = document.getElementById(menuId);
+            menu.style.display = (menu.style.display === 'block') ? 'none' : 'block';
+        }
+
+        document.addEventListener('click', function (event) {
+            var menu = document.getElementById('drop-menu-info');
+            var target = event.target;
+
+            if (!target.matches('.bi-three-dots-vertical')) {
+                menu.style.display = 'none';
+            }
         });
-
-        imageInput.addEventListener("change", handleImageUpload);
-
-        function handleImageUpload(event) {
-            const file = event.target.files[0];
-            const reader = new FileReader();
-
-            reader.onload = function (e) {
-                currentImage.src = e.target.result;
-            };
-
-            reader.readAsDataURL(file);
-        }
     </script>
-    <!-- upload image -->
-    <!-- show / hide password -->
+    <!-- show / hide edit menu in card -->
+
+
     <script>
-        function togglePasswordVisibility() {
-            var passwordInput = document.getElementById("password");
-            var lockIcon = document.getElementById("lockIcon");
+        // Get today's date
+        var today = new Date();
 
-            if (passwordInput.type === "password") {
-                passwordInput.type = "text";
-                lockIcon.classList.remove("bi-eye");
-                lockIcon.classList.add("bi-eye-slash");
-            } else {
-                passwordInput.type = "password";
-                lockIcon.classList.remove("bi-eye-slash");
-                lockIcon.classList.add("bi-eye");
-            }
-        }
+        // Format the date as "YYYY-MM-DD" to match the input type="date" format
+        var formattedDate = today.toISOString().substring(0, 10);
 
-        function toggleNewPasswordVisibility() {
-            var passwordInput = document.getElementById("password1");
-            var lockIcon = document.getElementById("lockIcon1");
-
-            if (passwordInput.type === "password") {
-                passwordInput.type = "text";
-                lockIcon.classList.remove("bi-eye");
-                lockIcon.classList.add("bi-eye-slash");
-            } else {
-                passwordInput.type = "password";
-                lockIcon.classList.remove("bi-eye-slash");
-                lockIcon.classList.add("bi-eye");
-            }
-        }
-        function toggleNewPasswordConfirmVisibility() {
-            var passwordInput = document.getElementById("password2");
-            var lockIcon = document.getElementById("lockIcon2");
-
-            if (passwordInput.type === "password") {
-                passwordInput.type = "text";
-                lockIcon.classList.remove("bi-eye");
-                lockIcon.classList.add("bi-eye-slash");
-            } else {
-                passwordInput.type = "password";
-                lockIcon.classList.remove("bi-eye-slash");
-                lockIcon.classList.add("bi-eye");
-            }
-        }
+        // Set the placeholder value of the input element
+        document.getElementById("dateInput").setAttribute("placeholder", formattedDate);
     </script>
-    <!-- show / hide password -->
-    <script>
-        function checkPasswordMatch() {
-            var password1 = document.getElementById("password1").value;
-            var password2 = document.getElementById("password2").value;
-            var errorElement = document.getElementById("passwordError");
-            var matchElement = document.getElementById("passwordMatch");
 
-            if (password1 !== password2) {
-                errorElement.style.display = "inline-block";
-                matchElement.style.display = "none";
-            } else {
-                errorElement.style.display = "none";
-                matchElement.style.display = "inline-block";
-            }
-        }
-    </script>
+
+
+
 </body>
 
 </html>

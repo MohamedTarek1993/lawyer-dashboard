@@ -63,6 +63,10 @@ ul {
   padding: 0px;
 }
 
+.modal-header .btn-close {
+  margin: 0;
+}
+
 p {
   margin-bottom: 0;
   // word-break: break-all;
@@ -365,6 +369,8 @@ iframe {
   }
 }
 
+// badge
+
 /* start button up */
 
 #button {
@@ -565,7 +571,7 @@ form .file-upload-wrapper input {
 //selectpicker
 
 textarea {
-  height: 150px;
+  height: 75px;
 }
 
 textarea.form-control {
@@ -1288,14 +1294,78 @@ input {
   }
 }
 
+.card_topic_second {
+  border-radius: 10px;
+  border: 1px solid #E8E8E8;
+  background: var(--color-white);
+  padding: 20px;
+  position: relative;
+  margin-bottom: 3%;
+  .button{
+    .btn{
+      font-size: .8rem;
+      padding: 2%;
+      margin: 0 5px;
+    }
+  }
+  a {
+    position: relative;
+
+    .header_card {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+      height: 70px;
+     .text{
+       width: 80%;
+      h5{
+        font-size: 1rem;
+        color: var(--color-text);
+        font-family: 'bold';
+        margin-bottom: 8px;
+      }
+      span{
+        font-size: .8rem;
+        color: var(--color-pargraph);
+        font-family: 'light';
+      }
+     }
+     .badge{
+      font-size: .8rem;
+      font-family: 'light';
+     }
+     
+    }
+    .info{
+      margin-top: 3%;
+      li {
+        color: var(--color-text-sec);
+        margin-inline-end: 1%;
+        margin-bottom: 1%;
+        font-size: .7rem;
+        font-family: 'light';
+        color: var(--color-text);
+
+        i {
+          font-size: 1rem;
+          color: var(--color-primary);
+        }
+      }
+    }
+    
+  }
+}
+
 .drop_menu_info {
   display: none;
   position: absolute;
   top: 13%;
-  left: 5%;
-  width: 146px;
-  height: 120px;
-  padding: 1rem;
+  left: 0%;
+  border: 1px solid var(--color-pargraph);
+  width: 120px;
+  height: 100px;
+  padding: .3rem;
   border-radius: 8px;
   box-shadow: 0 4px 16px rgba($color: #000000, $alpha: 0.05);
   z-index: 1000;
@@ -1319,7 +1389,7 @@ input {
   padding-inline-end: 20%;
 
   textarea {
-    height: 170px;
+    height: 75px;
   }
 
   .input-group-upload {
@@ -2380,7 +2450,9 @@ form .file-upload-wrapper input {
   margin-bottom: 4%;
 }
 
-.add-phone-btn , .add-image-btn ,.add-sysyem-btn {
+.add-phone-btn,
+.add-image-btn,
+.add-sysyem-btn {
   cursor: pointer;
   border: 1px solid #3EB381;
   border-radius: 8px;
@@ -2406,12 +2478,15 @@ form .file-upload-wrapper input {
     transition: .25s all ease-in-out;
   }
 }
+
 .add-image-btn {
   width: 180px;
   font-size: 1rem;
   color: var(--color-text-sec);
 }
-.remove-icon , .remove-sysyem-btn {
+
+.remove-icon,
+.remove-sysyem-btn {
   cursor: pointer;
   border: 1px solid #DF3034;
   border-radius: 8px;
@@ -2451,6 +2526,7 @@ form .file-upload-wrapper input {
     position: relative;
     margin-inline-end: 3%;
     margin-bottom: 3%;
+
     .close {
       position: absolute;
       left: 3%;
@@ -2477,6 +2553,110 @@ form .file-upload-wrapper input {
   }
 
 }
-.form_append_row{
+
+.form_append_row {
   margin-bottom: 3%;
+}
+
+.about_card_append {
+  position: relative;
+  border-radius: 10px;
+  border: 1px solid #EDEDF1;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+
+  .img {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    border: 1px dashed #EDEDF1;
+    margin-inline-end: 3%;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .close {
+    position: absolute;
+    top: 4%;
+    left: 4%;
+    cursor: pointer;
+
+    i {
+      color: #DF3034;
+      font-size: 1.2rem;
+    }
+  }
+}
+
+//card clerck
+.card_clerck {
+  a {
+    width: 90%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    .info {
+      width: unset;
+
+      h5 {
+        margin: 13px 0;
+      }
+
+      h6 {
+        background-color: rgba($color: #A6702E, $alpha: 0.4);
+        border-radius: 8px;
+        padding: 5px;
+        font-size: 13px;
+        color: var(--color-primary);
+      }
+    }
+  }
+}
+
+//detilas clerck
+.detials_clerck {
+  border-radius: 5px;
+  background: #F7F7F7;
+  padding: 1.25rem;
+
+  .content {
+    flex-direction: row;
+    align-items: flex-start;
+
+    .img {
+      width: 7%;
+      height: 54px;
+
+      img {
+        border-width: 1px;
+      }
+    }
+
+    .text {
+      padding-inline-start: 1%;
+      width: 92%;
+
+      ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        li {
+          width: 45%;
+          font-size: .8rem;
+
+          i {
+            color: var(--color-primary);
+          }
+        }
+      }
+    }
+  }
 }
