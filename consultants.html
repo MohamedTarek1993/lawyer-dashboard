@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ar" dir="ltr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> الإستشارات</title>
+    <!-- main css -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-select.min.css" />
+    <link rel="stylesheet" href="main-scss/main.min.css" />
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.5/dist/sweetalert2.min.css"> -->
+    <!-- responsive -->
+
+    <!-- ? Favicon -->
+    <link rel="icon" href="image/logo.png" type="image" />
+    <!-- ? Favicon -->
+</head>
+
+<body>
+    <main class="d-flex sidemobile p-0">
+        <!---------------------- start sidebar -------------------------------------------->
+        <section class="sidebar open">
+            <ul class="
+          nav nav-pills
+          flex-column
+          mb-sm-auto mb-0
+          align-items-center align-items-sm-start
+        " id="menu">
+                <!-- <div class="image_logo">
+                    <img src="image/logo.png" alt="logo_sidebar" class="logo" />
+                </div> -->
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link align-middle">
+                        <img src="image/home-icon.png" alt="icon" />
+                        <span>الرئيسية</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="cases.html" class="nav-link align-middle">
+                        <img src="/image/judge-icon.png" alt="icon" />
+                        <span>القضايا</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="clients.html" class="nav-link align-middle">
+                        <img src="image/profile-icon.png" alt="icon" />
+                        <span> العملاء</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#submenulibrary" data-bs-toggle="collapse"
+                        class="nav-link accordion-button align-middle collapsed">
+                        <img src="image/clipboard-icon.png" alt="icon" />
+                        <span>التقارير</span>
+                        <i class="fa-solid fa-angle-up"></i>
+                    </a>
+                    <ul class="collapse flex-column" id="submenulibrary" data-bs-parent="#menu">
+                        <div class="close">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                        <li>
+                            <a href="export-report.html" class="nav-link">
+                                <i class="fa-solid fa-circle dot"></i>
+                                <span>تقارير الصادرات</span></a>
+                        </li>
+                        <li>
+                            <a href="import-report.html" class="nav-link">
+                                <i class="fa-solid fa-circle dot"></i>
+                                <span> تقارير الواردات</span></a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a href="consultants.html" class="nav-link align-middle">
+                        <img src="image/note-icon.png" alt="icon" />
+                        <span>الاستشارات</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="acccountant-sucerty.html" class="nav-link align-middle">
+                        <img src="image/menu-board-icon.png" alt="icon" />
+                        <span> التقويم</span>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#submenuAccountant" data-bs-toggle="collapse"
+                        class="nav-link accordion-button align-middle collapsed">
+                        <img src="/image/moneys-icon.png" alt="icon" />
+                        <span> الحسابات المالية</span>
+                        <i class="fa-solid fa-angle-up"></i>
+                    </a>
+                    <ul class="collapse flex-column" id="submenuAccountant" data-bs-parent="#menu">
+                        <div class="close">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                        <li>
+                            <a href="expenses.html" class="nav-link">
+                                <i class="fa-solid fa-circle dot"></i>
+                                <span> المصروفات</span></a>
+                        </li>
+                        <li>
+                            <a href="bills-exchange.html" class="nav-link">
+                                <i class="fa-solid fa-circle dot"></i>
+                                <span> سندات الصرف</span></a>
+                        </li>
+                        <li>
+                            <a href="pills.html" class="nav-link">
+                                <i class="fa-solid fa-circle dot"></i>
+                                <span> الفواتير</span></a>
+
+                        </li>
+                        <li>
+                            <a href="monthly-income.html" class="nav-link">
+                                <i class="fa-solid fa-circle dot"></i>
+                                <span> الدخل الشهري</span></a>
+
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a href="tasks.html" class="nav-link align-middle">
+                        <img src="/image/task-square-icon.png" alt="icon" />
+                        <span> مهام المكتب</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="clerks.html" class="nav-link align-middle">
+                        <img src="/image/briefcase-icon.png" alt="icon" />
+                        <span> الموظفين</span>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#submenuSitting" data-bs-toggle="collapse"
+                        class="nav-link accordion-button align-middle collapsed">
+                        <img src="/image/briefcase-icon.png" alt="icon" />
+                        <span> اعدادات العمل</span>
+                        <i class="fa-solid fa-angle-up"></i>
+                    </a>
+                    <ul class="collapse flex-column" id="submenuSitting" data-bs-parent="#menu">
+                        <div class="close">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                        <li>
+                            <a href="landing-page.html" class="nav-link">
+                                <i class="fa-solid fa-circle dot"></i>
+                                <span> الصفحة التعريفية</span></a>
+                        </li>
+                        <li>
+                            <a href="guide.html" class="nav-link">
+                                <i class="fa-solid fa-circle dot"></i>
+                                <span> الدليل</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="settings.html" class="nav-link align-middle">
+                        <img src="/image/more-icon.png" alt="icon" />
+                        <span> الاعدادات العامة</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link align-middle">
+                        <img src="../image/icon-login.png" alt="icon" />
+                        <span> تسجيل الخروج</span>
+                    </a>
+                </li>
+
+
+            </ul>
+        </section>
+        <!---------------------- end sidebar -------------------------------------------->
+        <!---------------------- start main content -------------------------------------------->
+
+        <section class="index_cards">
+            <!---------------------- start nav -------------------------------------------->
+            <nav class="nav_top navbar">
+                <div class="container">
+                    <div class="menu">
+                        <i class="bi bi-list"></i>
+                    </div>
+                    <div class="info">
+                        <div class="notfication" onclick="showNotification()">
+                            <i class="bi bi-bell"></i>
+                            <span class="alerts">
+                                3
+                            </span>
+                        </div>
+
+                        <div class="img">
+                            <img src="../image/person.png" alt="person">
+                        </div>
+                        <div class="btn-group">
+                            <button class="btn  btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                محمد طارق
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li> <a href="acountant-settings.html">اعدادات الحساب</a> </li>
+                                <li> <a href="acccountant-sucerty.html">اعدادات الأمان</a> </li>
+                                <li onclick="acceptAlert()"> تسجيل الخروج </li>
+                            </ul>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </nav>
+            <ul class="notfication_list">
+                <h2>الأشعارات</h2>
+                <i class="bi bi-x close-icon" onclick="hideNotification()"></i>
+
+                <li class="unread" onclick="convertToRead(this)">
+                    <div class="info">
+                        <h6> text</h6>
+                        <span> 22/6/1993</span>
+                    </div>
+                    <div class="delete">
+                        <i class="bi bi-trash"></i>
+                    </div>
+                </li>
+                <li class="read">
+                    <div class="info">
+                        <h6> text</h6>
+                        <span> 22/6/1993</span>
+                    </div>
+                    <div class="delete">
+                        <i class="bi bi-trash"></i>
+                    </div>
+                </li>
+            </ul>
+            <!---------------------- finish nav -------------------------------------------->
+            <!---------------------- start content -------------------------------------------->
+            <div class="content_page">
+                <div class="container">
+                    <div class="row">
+                        <div class="main_topic  ">
+                            <h4> الإستشارات </h4>
+                        </div>
+                    </div>
+                    <!-- start tabs -->
+                    <div class="row">
+                        <ul class="nav nav_topic nav-pills mb-3" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                                    aria-selected="true">الاستشارات الجديدة ( 4 )</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-profile" type="button" role="tab"
+                                    aria-controls="pills-profile" aria-selected="false">الاستشارات الحالية ( 5
+                                    )</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-contact" type="button" role="tab"
+                                    aria-controls="pills-contact" aria-selected="false">الاستشارات المنتهية ( 4
+                                    )</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                                aria-labelledby="pills-home-tab">
+                                <div class="cards_consultant">
+                                    <div class="card_consulatant">
+                                        <div class="header_consultant">
+                                            <div class="text">
+                                                <h6>وقت الاستشارة</h6>
+                                                <h4>السبت, 22مايو - 8:30 ص</h4>
+                                            </div>
+                                            <div class="info">
+                                                <div class="button">
+                                                    <button class="btn show">
+                                                        <i class="bi bi-check-lg"></i>
+                                                    </button>
+                                                    <button class="btn delete">
+                                                        <i class="bi bi-x-lg"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="body_consultant">
+                                            <div class="img">
+                                                <img src="image/vedio.png" alt="video">
+                                            </div>
+                                            <div class="information">
+                                                <h4>استشارة فيديو اونلاين</h4>
+                                                <h6>أحمد عادل , someone@gmail.com</h6>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                                aria-labelledby="pills-profile-tab">...</div>
+                            <div class="tab-pane fade" id="pills-contact" role="tabpanel"
+                                aria-labelledby="pills-contact-tab">...</div>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+            </div>
+            <!---------------------- finish  content -------------------------------------------->
+        </section>
+        <!---------------------- finish main content -------------------------------------------->
+    </main>
+
+    <!-- main js -->
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- main js -->
+    <!-- sweet alert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- sweet alert -->
+
+
+
+
+</body>
+
+</html>

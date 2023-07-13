@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> المهام</title>
+    <title> الفواتير</title>
     <!-- main css -->
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -99,6 +99,11 @@
                         <div class="close">
                             <i class="fa-solid fa-xmark"></i>
                         </div>
+                        <li>
+                            <a href="expenses.html" class="nav-link">
+                                <i class="fa-solid fa-circle dot"></i>
+                                <span> المصروفات</span></a>
+                        </li>
                         <li>
                            <a href="bills-exchange.html" class="nav-link">
                                 <i class="fa-solid fa-circle dot"></i>
@@ -236,122 +241,129 @@
             <!---------------------- start content -------------------------------------------->
             <div class="content_page">
                 <div class="container">
-                    <div class="main_topic">
-                        <h4> اضافة مهمة جديدة </h4>
+                    <div class="row">
+                        <div class="main_topic  ">
+                            <h4> جميع الفواتير </h4>
+
+                            <a class="btn first" href="add-pills.html"> <i class="bi bi-plus"></i> فاتورة جديدة
+                            </a>
+
+                        </div>
                     </div>
-                    <form class="form_topic">
-
-                        <!-- start input -->
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="input-group">
-                                    <label class="form-label"> القضية</label>
-                                    <select required class="selectpicker" multiple data-selected-text-format="count > 1"
-                                        data-icon="bi bi-trash" data-live-search="true" data-placeholder="حدد القضية ">
-                                        <option value="1">One</option>
-                                        <option value="2">Two</option>
-                                        <option value="3">Three</option>
-                                    </select>
-                                </div>
+                    <!-- search and filter section -->
+                    <div class="row">
+                        <div class="col-lg-6 col-12">
+                            <div class="search_topic">
+                                <form>
+                                    <div class="input-group">
+                                        <input class="form-control" type="text"
+                                            placeholder="ابحث بإسم او رقم الفاتورة ">
+                                        <span class="icon_search"><i class="bi bi-search"></i></span>
+                                    </div>
+                                </form>
                             </div>
                         </div>
-                        <!-- finish input -->
+                        <div class="col-lg-3 col-12">
+                            <div class="dropdown dropdown_filter">
+                                <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    جميع الفواتير
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="#">مدفوع</a></li>
+                                    <li><a class="dropdown-item" href="#">مجاناً </a></li>
 
-                        <!-- start input -->
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="input-group">
-                                    <label class="form-label"> عنوان المُهمة</label>
-                                    <input required type="text" placeholder="ادخل عنوان المُهمة  " class="form-control">
-                                </div>
+                                </ul>
                             </div>
                         </div>
-                        <!-- finish input -->
-                        <!-- start input -->
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="input-group">
-                                    <label class="form-label"> تفاصيل المهمة</label>
-                                    <textarea class="form-control" placeholder="ادخل تفاصيل المهمة"></textarea>
-                                </div>
-                            </div>
+                        <div class="col-lg-3 col-12">
+                            <input type="date" class="form-control" id="dateInput">
                         </div>
-                        <!-- finish input -->
+                    </div>
 
-                        <!-- start input -->
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="input-group">
-                                    <label class="form-label"> المحامي</label>
-                                    <select required class="selectpicker" multiple data-selected-text-format="count > 1"
-                                        data-icon="bi bi-trash" data-live-search="true"
-                                        data-placeholder=" اختر المحامي المسئول ">
-                                        <option value="1">One</option>
-                                        <option value="2">Two</option>
-                                        <option value="3">Three</option>
-                                    </select>
+                    <!-- list section -->
+                    <div class="row">
+                        <table class="table-responsive table_topic">
+                            <thead>
+                                <tr>
+                                    <td></td>
+                                    <td>اسم الفاتورة </td>
+                                    <td> رقم الفاتورة</td>
+                                    <td> تاريخ اصدار الفاتورة</td>
+                                    <td> قيمة الفاتورة</td>
+                                    <td> حالة الفاتورة</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- waiting pills -->
+                                <tr>
+                                    <td> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    </td>
+
+                                    <td>
+                                        فاتورة من الاستاذ احمد عادل بالشهر العقاري بالحكم في قضية الضرائب
+
+                                    </td>
+                                    <td>#202524</td>
+                                    <td> 22 مارس, 2023 </td>
+                                    <td> 500 ريال سعودي</td>
+                                    <td class="text-primary">في الانتظار</td>
+
+
+                                </tr>
+                                <!-- waiting pills -->
+
+                                <!-- paid pills -->
+                                <tr>
+                                    <td> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    </td>
+
+                                    <td>
+                                        فاتورة من الاستاذ احمد عادل بالشهر العقاري بالحكم في قضية الضرائب
+
+                                    </td>
+                                    <td>#202524</td>
+                                    <td> 22 مارس, 2023 </td>
+                                    <td> 500 ريال سعودي</td>
+                                    <td class="text-success">تم الدفع </td>
+
+
+                                </tr>
+                                <!-- paid pills -->
+                            </tbody>
+                        </table>
+                        <!-- filter print pills -->
+                        <div class="filter_chose">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-2 col-12">
+                                    <h6>لقد قمت بتحديد 2 فاتوره</h6>
                                 </div>
-                            </div>
-                        </div>
-                        <!-- finish input -->
-                        <!-- start input -->
-                        <div class="row">
-                            <!-- start input -->
-                            <div class="col-12">
-                                <div class="input-group">
-                                    <label class="form-label"> اضافة مرفقات للمهمة </label>
-
-                                    <div class="file-upload-wrapper"
-                                        data-text="اسحب الملفات التى تريد اضافتها  او قم بفتحها من هنا">
-                                        <input required name="file-upload-field form-control" type="file"
-                                            class="file-upload-field" value="" />
+                                <div class="col-lg-8 col-md-10 col-12">
+                                    <div class="button">
+                                        <button class="btn first"> <i class="bi bi-printer"></i> طباعة فاتورة</button>
                                     </div>
                                 </div>
                             </div>
-                            <!-- finish input -->
                         </div>
-                        <!-- finish input -->
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                                    class="btn first">الاضافة والحفظ</button>
-                            </div>
-                        </div>
-
-                    </form>
+                        <!-- filter student section -->
+                        <!-- pagination -->
+                        <nav class="pagination_section">
+                            <ul class="pagination justify-content-center">
+                                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                            </ul>
+                        </nav>
+                        <!-- pagination -->
+                    </div>
                 </div>
             </div>
-
             <!---------------------- finish  content -------------------------------------------->
         </section>
         <!---------------------- finish main content -------------------------------------------->
     </main>
-    <!---------------------- modal -------------------------------------------->
-
-    <div class="modal modal_assistant fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <div class="content">
-                        <h4>تم اضافة المهمة بنجاح الى قائمة مهام المكتب</h4>
-                        <p>لقد قمت الآن باضافة المهمة الى قائمة معام المكتب لديك ويمكنك التعديل على البيانات فيما بعد
-                        </p>
-                        <div class="button">
-                            <a href="detials-tasks.html" class="btn first">عرض التفاصيل </a>
-                            <a href="edit-tasks.html" class="btn second">تعديل البيانات</a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-    <!---------------------- modal -------------------------------------------->
 
     <!-- main js -->
 
@@ -364,13 +376,7 @@
     <!-- sweet alert -->
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <!-- sweet alert -->
-    <!-- upload file -->
-    <script>
-        $("form").on("change", ".file-upload-field", function () {
-            $(this).parent(".file-upload-wrapper").attr("data-text", $(this).val().replace(/.*(\/|\\)/, ''));
-        });
-    </script>
-    <!-- upload file -->
+
 
 
 

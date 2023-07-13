@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> المهام</title>
+    <title> تقارير الواردات</title>
     <!-- main css -->
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -62,13 +62,13 @@
                         <div class="close">
                             <i class="fa-solid fa-xmark"></i>
                         </div>
-                         <li>
-                           <a href="export-report.html" class="nav-link">
+                        <li>
+                            <a href="export-report.html" class="nav-link">
                                 <i class="fa-solid fa-circle dot"></i>
                                 <span>تقارير الصادرات</span></a>
                         </li>
-                       <li>
-                           <a href="import-report.html" class="nav-link">
+                        <li>
+                            <a href="import-report.html" class="nav-link">
                                 <i class="fa-solid fa-circle dot"></i>
                                 <span> تقارير الواردات</span></a>
                         </li>
@@ -100,12 +100,17 @@
                             <i class="fa-solid fa-xmark"></i>
                         </div>
                         <li>
-                           <a href="bills-exchange.html" class="nav-link">
+                            <a href="expenses.html" class="nav-link">
+                                <i class="fa-solid fa-circle dot"></i>
+                                <span> المصروفات</span></a>
+                        </li>
+                        <li>
+                            <a href="bills-exchange.html" class="nav-link">
                                 <i class="fa-solid fa-circle dot"></i>
                                 <span> سندات الصرف</span></a>
                         </li>
                         <li>
-                           <a href="pills.html" class="nav-link">
+                            <a href="pills.html" class="nav-link">
                                 <i class="fa-solid fa-circle dot"></i>
                                 <span> الفواتير</span></a>
 
@@ -236,122 +241,130 @@
             <!---------------------- start content -------------------------------------------->
             <div class="content_page">
                 <div class="container">
-                    <div class="main_topic">
-                        <h4> اضافة مهمة جديدة </h4>
+                    <div class="row">
+                        <div class="main_topic  ">
+                            <h4> تقارير الواردات </h4>
+                            <p>معدلات الواردات فى الفترة الاخيرة</p>
+
+                        </div>
+                        <ul class="nav nav_topic nav-pills mb-3" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                                    aria-selected="true">اسبوعيا</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-profile" type="button" role="tab"
+                                    aria-controls="pills-profile" aria-selected="false">شهريا</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-contact" type="button" role="tab"
+                                    aria-controls="pills-contact" aria-selected="false">سنويا</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                                aria-labelledby="pills-home-tab">
+                                <!-- chatr for weekly -->
+                                <canvas id="lineChartWeekly"></canvas>
+                                <!-- chatr for weekly -->
+                            </div>
+                            <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                                aria-labelledby="pills-profile-tab">
+                                <!-- chatr for month -->
+                                <canvas id="lineChart"></canvas>
+                                <!-- chatr for month -->
+                            </div>
+                            <div class="tab-pane fade" id="pills-contact" role="tabpanel"
+                                aria-labelledby="pills-contact-tab">
+                                <!-- chatr for yearly -->
+                                <canvas id="lineChartYear"></canvas>
+                                <!-- chatr for yearly -->
+                            </div>
+                        </div>
+
+
                     </div>
-                    <form class="form_topic">
 
-                        <!-- start input -->
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="input-group">
-                                    <label class="form-label"> القضية</label>
-                                    <select required class="selectpicker" multiple data-selected-text-format="count > 1"
-                                        data-icon="bi bi-trash" data-live-search="true" data-placeholder="حدد القضية ">
-                                        <option value="1">One</option>
-                                        <option value="2">Two</option>
-                                        <option value="3">Three</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- finish input -->
+                    <!-- card income -->
 
-                        <!-- start input -->
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="input-group">
-                                    <label class="form-label"> عنوان المُهمة</label>
-                                    <input required type="text" placeholder="ادخل عنوان المُهمة  " class="form-control">
-                                </div>
-                            </div>
-                        </div>
-                        <!-- finish input -->
-                        <!-- start input -->
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="input-group">
-                                    <label class="form-label"> تفاصيل المهمة</label>
-                                    <textarea class="form-control" placeholder="ادخل تفاصيل المهمة"></textarea>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- finish input -->
 
-                        <!-- start input -->
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="input-group">
-                                    <label class="form-label"> المحامي</label>
-                                    <select required class="selectpicker" multiple data-selected-text-format="count > 1"
-                                        data-icon="bi bi-trash" data-live-search="true"
-                                        data-placeholder=" اختر المحامي المسئول ">
-                                        <option value="1">One</option>
-                                        <option value="2">Two</option>
-                                        <option value="3">Three</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- finish input -->
-                        <!-- start input -->
-                        <div class="row">
-                            <!-- start input -->
-                            <div class="col-12">
-                                <div class="input-group">
-                                    <label class="form-label"> اضافة مرفقات للمهمة </label>
+                    <!-- card income -->
+                    <!-- list section -->
+                    <div class="main_topic  ">
+                        <h4> اجمالى التقارير ( 20 ) </h4>
+                        <button class="btn first"> <i class="bi bi-printer"></i> طباعة فاتورة</button>
 
-                                    <div class="file-upload-wrapper"
-                                        data-text="اسحب الملفات التى تريد اضافتها  او قم بفتحها من هنا">
-                                        <input required name="file-upload-field form-control" type="file"
-                                            class="file-upload-field" value="" />
+                    </div>
+                    <!-- search and filter section -->
+                    <div class="row">
+                        <div class="col-lg-8 col-12">
+                            <div class="search_topic">
+                                <form>
+                                    <div class="input-group">
+                                        <input class="form-control" type="text"
+                                            placeholder=" ابحث بإسم او رقم الفاتورة">
+                                        <span class="icon_search"><i class="bi bi-search"></i></span>
                                     </div>
-                                </div>
-                            </div>
-                            <!-- finish input -->
-                        </div>
-                        <!-- finish input -->
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                                    class="btn first">الاضافة والحفظ</button>
+                                </form>
                             </div>
                         </div>
 
-                    </form>
+                        <div class="col-lg-4 col-12">
+                            <input type="date" class="form-control" id="dateInput">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <table class="table-responsive table_expenses table_topic">
+                            <thead>
+                                <tr>
+                                    <td>الرقم</td>
+                                    <td> التقرير </td>
+                                    <td> رقم الفاتورة</td>
+                                    <td> القيمة</td>
+                                    <td>التاريخ</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr>
+                                    <td>1</td>
+                                    <td>تقرير بصدور فاتورة من الاستاذ احمد عادل بالشهر العقاري</td>
+                                    <td>2152</td>
+                                    <td>2000 ر.س</td>
+                                    <td>2023 - 2 - 1</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>تقرير بصدور فاتورة من الاستاذ احمد عادل بالشهر العقاري</td>
+                                    <td>2152</td>
+                                    <td>2000 ر.س</td>
+                                    <td>2023 - 2 - 1</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+
+                        <!-- pagination -->
+                        <nav class="pagination_section">
+                            <ul class="pagination justify-content-center">
+                                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                            </ul>
+                        </nav>
+                        <!-- pagination -->
+                    </div>
                 </div>
             </div>
-
             <!---------------------- finish  content -------------------------------------------->
         </section>
         <!---------------------- finish main content -------------------------------------------->
     </main>
-    <!---------------------- modal -------------------------------------------->
-
-    <div class="modal modal_assistant fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <div class="content">
-                        <h4>تم اضافة المهمة بنجاح الى قائمة مهام المكتب</h4>
-                        <p>لقد قمت الآن باضافة المهمة الى قائمة معام المكتب لديك ويمكنك التعديل على البيانات فيما بعد
-                        </p>
-                        <div class="button">
-                            <a href="detials-tasks.html" class="btn first">عرض التفاصيل </a>
-                            <a href="edit-tasks.html" class="btn second">تعديل البيانات</a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-    <!---------------------- modal -------------------------------------------->
 
     <!-- main js -->
 
@@ -359,19 +372,112 @@
     <script src="js/all.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/chart.min.js"></script>
     <script src="js/main.js"></script>
+
     <!-- main js -->
     <!-- sweet alert -->
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <!-- sweet alert -->
-    <!-- upload file -->
+    <!-- chatrs  -->
     <script>
-        $("form").on("change", ".file-upload-field", function () {
-            $(this).parent(".file-upload-wrapper").attr("data-text", $(this).val().replace(/.*(\/|\\)/, ''));
+        var ctx = document.getElementById('lineChart').getContext('2d');
+        var lineChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
+                datasets: [
+                    {
+                        label: 'Monthes',
+                        data: [500, 450, 300, 550, 600, 750],
+                        borderColor: 'rgba(166, 112, 46, .8)',
+                        backgroundColor: 'rgba(166, 112, 46, .5)',
+                        fill: 'origin'  // Shade the area under the line
+                    },
+                    {
+                        label: 'Date',
+                        data: [500, 550, 600, 650, 700, 750],
+                        borderColor: '#00000',
+                        backgroundColor: 'rgba(166, 112, 46, .04)',
+                        fill: false
+                    }
+                ]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
         });
     </script>
-    <!-- upload file -->
 
+    <script>
+        var ctx = document.getElementById('lineChartWeekly').getContext('2d');
+        var lineChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ['Week1', 'Week2', 'Week3', 'Week4', 'Week5', 'Week6'],
+                datasets: [
+                    {
+                        label: 'Weeks',
+                        data: [500, 450, 400, 650, 700, 750],
+                        borderColor: 'rgba(166, 112, 46, .8)',
+                        backgroundColor: 'rgba(166, 112, 46, .5)',
+                        fill: 'origin'  // Shade the area under the line
+                    },
+                    {
+                        label: 'Date',
+                        data: [500, 550, 600, 650, 700, 750],
+                        borderColor: '#00000',
+                        backgroundColor: 'rgba(166, 112, 46, .04)',
+                        fill: false
+                    }
+                ]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+
+    <script>
+        var ctx = document.getElementById('lineChartYear').getContext('2d');
+        var lineChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ['2018', '2019', '2020', '2021', '2022', '2023'],
+                datasets: [
+                    {
+                        label: 'Years',
+                        data: [200, 350, 500, 650, 700, 450],
+                        borderColor: 'rgba(166, 112, 46, .8)',
+                        backgroundColor: 'rgba(166, 112, 46, .5)',
+                        fill: 'origin'  // Shade the area under the line
+                    },
+                    {
+                        label: 'Date',
+                        data: [500, 550, 600, 550, 400, 350],
+                        borderColor: '#00000',
+                        backgroundColor: 'rgba(166, 112, 46, .04)',
+                        fill: false
+                    }
+                ]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
 
 
 </body>

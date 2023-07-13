@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> المهام</title>
+    <title> المصروفات</title>
     <!-- main css -->
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -62,7 +62,7 @@
                         <div class="close">
                             <i class="fa-solid fa-xmark"></i>
                         </div>
-                         <li>
+                        <li>
                            <a href="export-report.html" class="nav-link">
                                 <i class="fa-solid fa-circle dot"></i>
                                 <span>تقارير الصادرات</span></a>
@@ -100,12 +100,17 @@
                             <i class="fa-solid fa-xmark"></i>
                         </div>
                         <li>
+                            <a href="expenses.html" class="nav-link">
+                                <i class="fa-solid fa-circle dot"></i>
+                                <span> المصروفات</span></a>
+                        </li>
+                        <li>
                            <a href="bills-exchange.html" class="nav-link">
                                 <i class="fa-solid fa-circle dot"></i>
                                 <span> سندات الصرف</span></a>
                         </li>
                         <li>
-                           <a href="pills.html" class="nav-link">
+                            <a href="pills.html" class="nav-link">
                                 <i class="fa-solid fa-circle dot"></i>
                                 <span> الفواتير</span></a>
 
@@ -236,122 +241,97 @@
             <!---------------------- start content -------------------------------------------->
             <div class="content_page">
                 <div class="container">
-                    <div class="main_topic">
-                        <h4> اضافة مهمة جديدة </h4>
+                    <div class="row">
+                        <div class="main_topic  ">
+                            <h4> كل المصروفات </h4>
+
+                            <a class="btn first" href="add-expenses.html"> <i class="bi bi-plus"></i> مصروف جديد
+                            </a>
+
+                        </div>
                     </div>
-                    <form class="form_topic">
-
-                        <!-- start input -->
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="input-group">
-                                    <label class="form-label"> القضية</label>
-                                    <select required class="selectpicker" multiple data-selected-text-format="count > 1"
-                                        data-icon="bi bi-trash" data-live-search="true" data-placeholder="حدد القضية ">
-                                        <option value="1">One</option>
-                                        <option value="2">Two</option>
-                                        <option value="3">Three</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- finish input -->
-
-                        <!-- start input -->
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="input-group">
-                                    <label class="form-label"> عنوان المُهمة</label>
-                                    <input required type="text" placeholder="ادخل عنوان المُهمة  " class="form-control">
-                                </div>
-                            </div>
-                        </div>
-                        <!-- finish input -->
-                        <!-- start input -->
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="input-group">
-                                    <label class="form-label"> تفاصيل المهمة</label>
-                                    <textarea class="form-control" placeholder="ادخل تفاصيل المهمة"></textarea>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- finish input -->
-
-                        <!-- start input -->
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="input-group">
-                                    <label class="form-label"> المحامي</label>
-                                    <select required class="selectpicker" multiple data-selected-text-format="count > 1"
-                                        data-icon="bi bi-trash" data-live-search="true"
-                                        data-placeholder=" اختر المحامي المسئول ">
-                                        <option value="1">One</option>
-                                        <option value="2">Two</option>
-                                        <option value="3">Three</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- finish input -->
-                        <!-- start input -->
-                        <div class="row">
-                            <!-- start input -->
-                            <div class="col-12">
-                                <div class="input-group">
-                                    <label class="form-label"> اضافة مرفقات للمهمة </label>
-
-                                    <div class="file-upload-wrapper"
-                                        data-text="اسحب الملفات التى تريد اضافتها  او قم بفتحها من هنا">
-                                        <input required name="file-upload-field form-control" type="file"
-                                            class="file-upload-field" value="" />
+                    <!-- search and filter section -->
+                    <div class="row">
+                        <div class=" col-12">
+                            <div class="search_topic">
+                                <form>
+                                    <div class="input-group">
+                                        <input class="form-control" type="text"
+                                            placeholder="ابحث بإسم المصروف">
+                                        <span class="icon_search"><i class="bi bi-search"></i></span>
                                     </div>
-                                </div>
-                            </div>
-                            <!-- finish input -->
-                        </div>
-                        <!-- finish input -->
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                                    class="btn first">الاضافة والحفظ</button>
+                                </form>
                             </div>
                         </div>
+                       
+                    </div>
 
-                    </form>
+                    <!-- list section -->
+                    <div class="row">
+                        <table class="table-responsive table_expenses table_topic">
+                            <thead>
+                                <tr>
+                                    
+                                    <td> الرقم </td>
+                                    <td>  المصروف</td>
+                                    <td>   تاريخ الاضافة</td>
+                                    <td>  </td>
+                                  
+                                </tr>
+                            </thead>
+                            <tbody>
+                         
+                                <tr>
+                                    <td> مصاريف قانونية </td>
+                                    <td>2023 - 2 - 1</td>
+                                 
+                                    <td class="button">
+                                        <a class="btn edit" href="edit-expenses.html"> <i
+                                                class="bi bi-pencil"></i></a>
+                                        <button onclick="deleteion()" class="btn delete" href="#"> <i
+                                                class="bi bi-trash3"></i></button>
+
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td> مصاريف قانونية </td>
+                                    <td>2023 - 2 - 1</td>
+                                 
+                                    <td class="button">
+                                        <a class="btn edit" href="edit-expenses.html"> <i
+                                                class="bi bi-pencil"></i></a>
+                                        <button onclick="deleteion()" class="btn delete" href="#"> <i
+                                                class="bi bi-trash3"></i></button>
+
+                                    </td>
+
+
+                                </tr>
+                        
+
+                            </tbody>
+                        </table>
+                      
+                        <!-- pagination -->
+                        <nav class="pagination_section">
+                            <ul class="pagination justify-content-center">
+                                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                            </ul>
+                        </nav>
+                        <!-- pagination -->
+                    </div>
                 </div>
             </div>
-
             <!---------------------- finish  content -------------------------------------------->
         </section>
         <!---------------------- finish main content -------------------------------------------->
     </main>
-    <!---------------------- modal -------------------------------------------->
-
-    <div class="modal modal_assistant fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <div class="content">
-                        <h4>تم اضافة المهمة بنجاح الى قائمة مهام المكتب</h4>
-                        <p>لقد قمت الآن باضافة المهمة الى قائمة معام المكتب لديك ويمكنك التعديل على البيانات فيما بعد
-                        </p>
-                        <div class="button">
-                            <a href="detials-tasks.html" class="btn first">عرض التفاصيل </a>
-                            <a href="edit-tasks.html" class="btn second">تعديل البيانات</a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-    <!---------------------- modal -------------------------------------------->
 
     <!-- main js -->
 
@@ -364,13 +344,7 @@
     <!-- sweet alert -->
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <!-- sweet alert -->
-    <!-- upload file -->
-    <script>
-        $("form").on("change", ".file-upload-field", function () {
-            $(this).parent(".file-upload-wrapper").attr("data-text", $(this).val().replace(/.*(\/|\\)/, ''));
-        });
-    </script>
-    <!-- upload file -->
+
 
 
 
