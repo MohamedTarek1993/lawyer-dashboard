@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> المهام</title>
+    <title> القضايا</title>
     <!-- main css -->
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -62,13 +62,13 @@
                         <div class="close">
                             <i class="fa-solid fa-xmark"></i>
                         </div>
-                         <li>
-                           <a href="export-report.html" class="nav-link">
+                        <li>
+                            <a href="export-report.html" class="nav-link">
                                 <i class="fa-solid fa-circle dot"></i>
                                 <span>تقارير الصادرات</span></a>
                         </li>
-                       <li>
-                           <a href="import-report.html" class="nav-link">
+                        <li>
+                            <a href="import-report.html" class="nav-link">
                                 <i class="fa-solid fa-circle dot"></i>
                                 <span> تقارير الواردات</span></a>
                         </li>
@@ -100,12 +100,12 @@
                             <i class="fa-solid fa-xmark"></i>
                         </div>
                         <li>
-                           <a href="bills-exchange.html" class="nav-link">
+                            <a href="bills-exchange.html" class="nav-link">
                                 <i class="fa-solid fa-circle dot"></i>
                                 <span> سندات الصرف</span></a>
                         </li>
                         <li>
-                           <a href="pills.html" class="nav-link">
+                            <a href="pills.html" class="nav-link">
                                 <i class="fa-solid fa-circle dot"></i>
                                 <span> الفواتير</span></a>
 
@@ -236,96 +236,45 @@
             <!---------------------- start content -------------------------------------------->
             <div class="content_page">
                 <div class="container">
-                    <div class="main_topic">
-                        <h4> كل المهام </h4>
-                        
-
-                        
-                        <a class="btn first" href="add-tasks.html"> <i class="bi bi-plus"></i> مهمة جديدة </a>
+                    <div class="main_topic course_main_topic">
+                        <h4> القضايا المؤرشفة ( 20 ) </h4>
+                        <div class="button ">
+                            <a class="btn first" href="add-case.html"> <i class="bi bi-plus"></i> قضية جديدة
+                            </a>
+                        </div>
                     </div>
 
                     <!-- search and filter section -->
                     <div class="row">
-                        <div class="col-lg-6 col-md-6 col-12">
+                        <div class="col-lg-8 col-md-8 col-12">
                             <div class="search_topic">
                                 <form>
                                     <div class="input-group">
-                                        <input class="form-control" type="text"
-                                            placeholder=" ابحث بإسم المهمة او المحامي">
+                                        <input class="form-control" type="text" placeholder="ابحث بإسم العميل , القضية">
                                         <span class="icon_search"><i class="bi bi-search"></i></span>
                                     </div>
                                 </form>
                             </div>
                         </div>
-                        <div class="col-lg-2 col-md-6 col-12">
-                            <div class="dropdown dropdown_filter">
-                                <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton2"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    كل المهام
-                                </button>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
-                                    <li><a class="dropdown-item" href="#">مدفوع</a></li>
-                                    <li><a class="dropdown-item" href="#">مجاناً </a></li>
 
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-md-6 col-12">
-                            <div class="dropdown dropdown_filter">
-                                <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton1"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    المهام الحالية
-                                </button>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                    <li><a class="dropdown-item" href="#">مدفوع</a></li>
-                                    <li><a class="dropdown-item" href="#">مجاناً </a></li>
-
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-md-6 col-12">
+                        <div class="col-lg-4 col-md-4 col-12">
                             <input type="date" class="form-control" id="dateInput">
                         </div>
                     </div>
 
+
                     <!-- start clerks card -->
                     <div class="row">
                         <div class="col-lg-6  col-12">
-                            <!-- progress task -->
+                            <!--  card -->
                             <div class="card_topic_second">
-                                <a href="detials-tasks.html">
-                                    <div class="header_card">
-                                        <div class="text">
-                                            <h5> توكيل بوكالة الاستاذ احمد عادل بالشهر العقاري بالحكم في قضية
-                                                الضرائب</h5>
-
-                                        </div>
-                                        <div class=" badge bg-success">جاري العمل عليها</div>
-                                    </div>
-                                    <ul class="info">
-                                        <li><i class="bi bi-person"></i> العميل: <strong>احمد عادل</strong></li>
-                                        <li><i class="bi bi-calendar"></i> الجلسة القادمة: <strong> 22 مارس -
-                                                8:30 م</strong></li>
-                                    </ul>
-                                    <div class="button w-100">
-                                        <a class="btn first w-100" href="detials-tasks.html"> عرض التفاصيل</a>
-                                        <a class="btn second w-100" href="edit-tasks.html"> تعديل البيانات</a>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- progress task -->
-                        </div>
-
-                        <div class="col-lg-6  col-12">
-                            <!-- new task -->
-                            <div class="card_topic_second">
-                                <a href="detials-tasks.html">
+                                <a href="detials-case.html">
                                     <div class="header_card">
                                         <div class="text">
                                             <h5> قضية الضرائب المرفوعة من السيد/ أحمد ابراهيم</h5>
-
+                                            <span>قضية أموال عامة</span>
                                         </div>
-                                        <div class=" badge bg-primary"> مهمة جديدة</div>
+                                       
                                     </div>
                                     <ul class="info">
                                         <li><i class="bi bi-person"></i> العميل: <strong>احمد عادل</strong></li>
@@ -333,39 +282,14 @@
                                                 8:30 م</strong></li>
                                     </ul>
                                     <div class="button w-100">
-                                        <a class="btn first w-100" href="detials-tasks.html"> عرض التفاصيل</a>
-                                        <a class="btn second w-100" href="edit-tasks.html"> تعديل البيانات</a>
+                                        <a class="btn first w-100" href="detials-case.html"> عرض التفاصيل</a>
                                     </div>
                                 </a>
                             </div>
-                            <!-- new task -->
+                            <!-- progress card -->
                         </div>
 
-                        <div class="col-lg-6  col-12">
-                            <!-- finshed rask -->
-                            <div class="card_topic_second">
-                                <a href="detials-tasks.html">
-                                    <div class="header_card">
-                                        <div class="text">
-                                            <h5>توكيل بوكالة الاستاذ احمد عادل بالشهر العقاري بالحكم في قضية الضرائب
-                                            </h5>
-
-                                        </div>
-                                        <div class=" badge bg-danger"> مهمة منتهية</div>
-                                    </div>
-                                    <ul class="info">
-                                        <li><i class="bi bi-person"></i> العميل: <strong>احمد عادل</strong></li>
-                                        <li><i class="bi bi-calendar"></i> الجلسة القادمة: <strong> 22 مارس -
-                                                8:30 م</strong></li>
-                                    </ul>
-                                    <div class="button w-100">
-                                        <a class="btn first w-100" href="detials-tasks.html"> عرض التفاصيل</a>
-                                        <a class="btn second w-100" href="edit-tasks.html"> تعديل البيانات</a>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- finshed task -->
-                        </div>
+                     
                     </div>
                     <!-- finish clerks card -->
                     <!-- pagination -->
@@ -381,6 +305,7 @@
                     <!-- pagination -->
 
 
+
                 </div>
             </div>
 
@@ -390,6 +315,7 @@
         </section>
         <!---------------------- finish main content -------------------------------------------->
     </main>
+
 
     <!-- main js -->
 
@@ -402,38 +328,6 @@
     <!-- sweet alert -->
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <!-- sweet alert -->
-
-
-
-    <!-- show / hide edit menu in card -->
-    <script>
-        function toggleMenu(menuId) {
-            var menu = document.getElementById(menuId);
-            menu.style.display = (menu.style.display === 'block') ? 'none' : 'block';
-        }
-
-        document.addEventListener('click', function (event) {
-            var menu = document.getElementById('drop-menu-info');
-            var target = event.target;
-
-            if (!target.matches('.bi-three-dots-vertical')) {
-                menu.style.display = 'none';
-            }
-        });
-    </script>
-    <!-- show / hide edit menu in card -->
-
-
-    <script>
-        // Get today's date
-        var today = new Date();
-
-        // Format the date as "YYYY-MM-DD" to match the input type="date" format
-        var formattedDate = today.toISOString().substring(0, 10);
-
-        // Set the placeholder value of the input element
-        document.getElementById("dateInput").setAttribute("placeholder", formattedDate);
-    </script>
 
 
 
