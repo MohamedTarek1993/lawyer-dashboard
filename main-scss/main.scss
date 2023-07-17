@@ -1503,7 +1503,12 @@ input {
 
 //form topic
 .form_topic {
-
+h4{
+  font-size: 1.2rem;
+  color: var(--color-primary);
+  font-family: 'regular';
+  margin: 3% 0;
+}
 
 
   padding-inline-end: 20%;
@@ -1596,7 +1601,24 @@ input {
       color: var(--color-primary);
     }
   }
+.btn.second{
+  background-color: var(--color-white);
+  border: 1px solid var(--color-primary);
+  width: 35%;
+  color: var(--color-primary);
+  font-size: 1rem;
+  border-radius: 8px;
+  transition: .25s all ease-in-out;
+  font-family: 'light';
+  padding: 7px 0;
+  width: 48%;
+  margin-inline-start: 2%;
 
+  &:hover {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+  }
+}
   .form-check-inline {
     margin-right: 0;
   }
@@ -2951,4 +2973,22 @@ input {
     overflow-y: hidden;
     }
   }
+}
+//add client
+.indvidual_agency{
+  display: none;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 0.2s, max-height 0.2s;
+  margin-bottom: 3%;
+  
+}
+.form-step-inside {
+  display: none;
+ 
+  transform-origin: top;
+  animation: animate 0.5s;
+}
+.form-step-inside-active {
+  display: flex;
 }

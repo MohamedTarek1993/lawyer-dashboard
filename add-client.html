@@ -5,7 +5,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> الموظفين</title>
+    <title> العملاء</title>
+
     <!-- main css -->
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -66,13 +67,13 @@
                         <div class="close">
                             <i class="fa-solid fa-xmark"></i>
                         </div>
-                         <li>
-                           <a href="export-report.html" class="nav-link">
+                        <li>
+                            <a href="export-report.html" class="nav-link">
                                 <i class="fa-solid fa-circle dot"></i>
                                 <span>تقارير الصادرات</span></a>
                         </li>
-                       <li>
-                           <a href="import-report.html" class="nav-link">
+                        <li>
+                            <a href="import-report.html" class="nav-link">
                                 <i class="fa-solid fa-circle dot"></i>
                                 <span> تقارير الواردات</span></a>
                         </li>
@@ -104,12 +105,12 @@
                             <i class="fa-solid fa-xmark"></i>
                         </div>
                         <li>
-                           <a href="bills-exchange.html" class="nav-link">
+                            <a href="bills-exchange.html" class="nav-link">
                                 <i class="fa-solid fa-circle dot"></i>
                                 <span> سندات الصرف</span></a>
                         </li>
                         <li>
-                           <a href="pills.html" class="nav-link">
+                            <a href="pills.html" class="nav-link">
                                 <i class="fa-solid fa-circle dot"></i>
                                 <span> الفواتير</span></a>
 
@@ -124,7 +125,7 @@
                 </li>
 
                 <li class="nav-item">
-                     <a href="tasks.html" class="nav-link align-middle">
+                    <a href="tasks.html" class="nav-link align-middle">
                         <img src="/image/task-square-icon.png" alt="icon" />
                         <span> مهام المكتب</span>
                     </a>
@@ -242,285 +243,710 @@
             </ul>
             <!---------------------- finish nav -------------------------------------------->
             <!---------------------- start content -------------------------------------------->
-            <div class="content_page">
-                <div class="container">
-                    <div class="main_topic">
-                        <h4> اضافة عميل جديد </h4>
-                    </div>
-                    <div class="clerck_type">
-                        <h6>أختر نوع العميل</h6>
-                        <!-- start input group -->
-                        <div class="row">
-                            <div class="col-lg-4 col-12">
-                                <div class="form-check form_card">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                        id="flexRadioDefault1">
-                                    <label class="form-check-label" for="flexRadioDefault1">
-                                        <img src="image/agence.png" alt="card">
-                                        <h6>وكالة فردية</h6>
-                                    </label>
-                                </div>
-
-
-                            </div>
-
-                            <div class="col-lg-4 col-12">
-                                <div class="form-check form_card">
-                                    <input onchange="toggleRow()" class="form-check-input" type="radio"
-                                        name="flexRadioDefault" id="flexRadioDefault2" checked>
-                                    <label class="form-check-label" for="flexRadioDefault2">
-                                        <img src="image/company.png" alt="card">
-                                        <h6> شركة</h6>
-                                    </label>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-12">
-                                <div class="form-check form_card">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                        id="flexRadioDefault3" checked>
-                                    <label class="form-check-label" for="flexRadioDefault3">
-                                        <img src="image/case.png" alt="card">
-                                        <h6> قضية</h6>
-                                    </label>
-                                </div>
-                            </div>
+            <div class="content_page ">
+                <!-- first step -->
+                <div class="form-step-inside  form-step-inside-active">
+                    <div class="container">
+                        <div class="main_topic">
+                            <h4> اضافة عميل جديد </h4>
                         </div>
-                        <!-- finish input group -->
-                        <form class="form_topic main_education" id="mainEducation">
-                            <!-- main education -->
-                            <h4> ادخل البيانات التالية للاستمرار</h4>
+                        <div class="clerck_type">
+                            <h6>أختر نوع العميل</h6>
+                            <!-- start input group -->
                             <div class="row">
-                                <!-- start input -->
-                                <div class="col-12">
-                                    <div class="input-group">
-                                        <label class="form-label"> اسم العميل</label>
-                                        <input type="text" class="form-control" placeholder="ادخل اسم العميل">
+                                <div class="col-lg-4 col-12">
+                                    <div class="form-check form_card">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                            id="flexRadioDefault1" onchange="toggleClient()">
+                                        <label class="form-check-label" for="flexRadioDefault1">
+                                            <img src="image/agence.png" alt="card">
+                                            <h6>وكالة فردية</h6>
+                                        </label>
                                     </div>
-                                </div>
-                                <!-- finish input -->
-                                <!-- start input -->
-                                <div class="col-lg-6 col-12">
-                                    <div class="input-group">
-                                        <label class="form-label"> رقم الجوال</label>
-                                        <input type="tel" class="form-control" placeholder="  ادخل رقم الجوال">
-                                    </div>
-                                </div>
-                                <!-- finish input -->
-                                <!-- start input -->
-                                <div class="col-lg-6 col-12">
-                                    <div class="input-group">
-                                        <label class="form-label"> البريد الالكترونى</label>
-                                        <input type="email" class="form-control"
-                                            placeholder="    ادخل البريد الالكترونى">
-                                    </div>
-                                </div>
-                                <!-- finish input -->
-                                <!-- start input -->
-                                <div class="col-12">
-                                    <div class="input-group">
-                                        <label class="form-label"> رقم الهوية</label>
-                                        <input type="number" class="form-control" placeholder="     ادخل رقم الهوية">
 
-                                    </div>
-                                </div>
-                                <!-- finish input -->
-                                <!-- start input -->
-                                <div class="col-lg-6 col-12">
-                                    <div class="input-group">
-                                        <label class="form-label"> الجنسية</label>
-                                        <select required class="selectpicker" data-placeholder="اختر الجنسية"
-                                            data-selected-text-format="count > 1" data-icon="bi bi-trash"
-                                            data-live-search="true">
-                                            <option value="1">One</option>
-                                            <option value="2">Two</option>
-                                            <option value="3">Three</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <!-- finish input -->
-                                <!-- start input -->
-                                <div class="col-lg-6 col-12">
-                                    <div class="input-group">
-                                        <label class="form-label"> الديانة</label>
-                                        <select required class="selectpicker" data-placeholder="اختر الديانة"
-                                            data-selected-text-format="count > 1" data-icon="bi bi-trash"
-                                            data-live-search="true">
-                                            <option value="1">One</option>
-                                            <option value="2">Two</option>
-                                            <option value="3">Three</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <!-- finish input -->
-                                <!-- start input -->
-                                <div class="col-12">
-                                    <div class="input-group">
-                                        <label class="form-label"> المهنة</label>
-                                        <input type="text" class="form-control" placeholder=" ادخل المهنة">
-                                    </div>
-                                </div>
-                                <!-- finish input -->
-                                <!-- start input -->
-                                <div class="col-12">
-                                    <div class="input-group">
-                                        <label class="form-label"> عنوان المنزل</label>
-                                        <input type="text" class="form-control" placeholder=" ادخل عنوان المنزل">
-                                    </div>
-                                </div>
-                                <!-- finish input -->
 
-                                <!-- start input -->
-                                <div class="col-12">
-                                    <div class="input-group">
-                                        <label class="form-label"> عنوان العمل</label>
-                                        <input type="text" class="form-control" placeholder=" ادخل  عنوان العمل">
-                                    </div>
                                 </div>
-                                <!-- finish input -->
-                                <!-- start input -->
-                                <div class="col-12">
-                                    <div class="input-group">
-                                        <label class="form-label"> رقم التوكيل</label>
-                                        <input type="number" class="form-control" placeholder=" ادخل رقم التوكيل">
-                                    </div>
-                                </div>
-                                <!-- finish input -->
-                                <!-- start input -->
-                                <div class="col-12">
-                                    <div class="input-group pt-4">
-                                        <div class="file-upload-wrapper"
-                                            data-text="اسحب الفيديو التى تريد اضافتها  او قم بفتحها من هنا">
-                                            <input required name="file-upload-field form-control" type="file"
-                                                class="file-upload-field" value="" />
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- finish input -->
 
-                                <div class="col-12">
-                                    <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                                        class="btn first">الاضافة والحفظ</button>
+                                <div class="col-lg-4 col-12">
+                                    <div class="form-check form_card">
+                                        <input onchange="toggleClient()" class="form-check-input" type="radio"
+                                            name="flexRadioDefault" id="flexRadioDefault2" >
+                                        <label class="form-check-label" for="flexRadioDefault2">
+                                            <img src="image/company.png" alt="card">
+                                            <h6> شركة</h6>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-12">
+                                    <div class="form-check form_card">
+                                        <input onchange="toggleClient()" class="form-check-input" type="radio"
+                                            name="flexRadioDefault" id="flexRadioDefault3" >
+                                        <label class="form-check-label" for="flexRadioDefault3">
+                                            <img src="image/case.png" alt="card">
+                                            <h6> قضية</h6>
+                                        </label>
+                                    </div>
                                 </div>
                             </div>
-                            <!-- main education -->
-                        </form>
+                            <!-- finish input group -->
+                        </div>
 
+                        <!-- start agency section -->
+                        <div class="indvidual_agency" id="agency">
+                            <form class="form_topic">
 
-                        <form class="form_topic main_education" id="mainEducation">
-                            <!-- main education -->
-                            <h4> ادخل البيانات التالية للاستمرار</h4>
-                            <div class="row">
-                                <!-- start input -->
-                                <div class="col-12">
-                                    <div class="input-group">
-                                        <label class="form-label"> الممثل القانوني</label>
-                                        <input type="text" class="form-control" placeholder="ادخل  الممثل القانوني">
+                                <h4> ادخل بيانات الوكالة التالية للاستمرار</h4>
+                                <div class="row">
+                                    <!-- start input -->
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <label class="form-label"> اسم العميل</label>
+                                            <input type="text" class="form-control" placeholder="ادخل اسم العميل">
+                                        </div>
                                     </div>
-                                </div>
-                                <!-- finish input -->
-                                <!-- start input -->
-                                <div class="col-lg-6 col-12">
-                                    <div class="input-group">
-                                        <label class="form-label"> رقم الجوال</label>
-                                        <input type="tel" class="form-control" placeholder="  ادخل رقم الجوال">
+                                    <!-- finish input -->
+                                    <!-- start input -->
+                                    <div class="col-lg-6 col-12">
+                                        <div class="input-group">
+                                            <label class="form-label"> رقم الجوال</label>
+                                            <input type="tel" class="form-control" placeholder="  ادخل رقم الجوال">
+                                        </div>
                                     </div>
-                                </div>
-                                <!-- finish input -->
-                                <!-- start input -->
-                                <div class="col-lg-6 col-12">
-                                    <div class="input-group">
-                                        <label class="form-label"> البريد الالكترونى</label>
-                                        <input type="email" class="form-control"
-                                            placeholder="    ادخل البريد الالكترونى">
+                                    <!-- finish input -->
+                                    <!-- start input -->
+                                    <div class="col-lg-6 col-12">
+                                        <div class="input-group">
+                                            <label class="form-label"> البريد الالكترونى</label>
+                                            <input type="email" class="form-control"
+                                                placeholder="    ادخل البريد الالكترونى">
+                                        </div>
                                     </div>
-                                </div>
-                                <!-- finish input -->
-                                <!-- start input -->
-                                <div class="col-12">
-                                    <div class="input-group">
-                                        <label class="form-label"> النشاط</label>
-                                        <input type="number" class="form-control" placeholder=" ادخل نشاط الشركة">
+                                    <!-- finish input -->
+                                    <!-- start input -->
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <label class="form-label"> رقم الهوية</label>
+                                            <input type="number" class="form-control"
+                                                placeholder="     ادخل رقم الهوية">
 
+                                        </div>
                                     </div>
-                                </div>
-                                <!-- finish input -->
+                                    <!-- finish input -->
+                                    <!-- start input -->
+                                    <div class="col-lg-6 col-12">
+                                        <div class="input-group">
+                                            <label class="form-label"> الجنسية</label>
+                                            <select required class="selectpicker" data-placeholder="اختر الجنسية"
+                                                data-selected-text-format="count > 1" data-icon="bi bi-trash"
+                                                data-live-search="true">
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <!-- finish input -->
+                                    <!-- start input -->
+                                    <div class="col-lg-6 col-12">
+                                        <div class="input-group">
+                                            <label class="form-label"> الديانة</label>
+                                            <select required class="selectpicker" data-placeholder="اختر الديانة"
+                                                data-selected-text-format="count > 1" data-icon="bi bi-trash"
+                                                data-live-search="true">
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <!-- finish input -->
+                                    <!-- start input -->
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <label class="form-label"> المهنة</label>
+                                            <input type="text" class="form-control" placeholder=" ادخل المهنة">
+                                        </div>
+                                    </div>
+                                    <!-- finish input -->
+                                    <!-- start input -->
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <label class="form-label"> عنوان المنزل</label>
+                                            <input type="text" class="form-control" placeholder=" ادخل عنوان المنزل">
+                                        </div>
+                                    </div>
+                                    <!-- finish input -->
 
-                                <!-- start input -->
-                                <div class="col-12">
-                                    <div class="input-group">
-                                        <label class="form-label"> رقم البطاقة الضريبية</label>
-                                        <input type="number" class="form-control"
-                                            placeholder="  ادخل رقم البطاقة الضريبية">
+                                    <!-- start input -->
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <label class="form-label"> عنوان العمل</label>
+                                            <input type="text" class="form-control" placeholder=" ادخل  عنوان العمل">
+                                        </div>
+                                    </div>
+                                    <!-- finish input -->
+                                    <!-- start input -->
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <label class="form-label"> رقم التوكيل</label>
+                                            <input type="number" class="form-control" placeholder=" ادخل رقم التوكيل">
+                                        </div>
+                                    </div>
+                                    <!-- finish input -->
+                                    <!-- start input -->
+                                    <div class="col-12">
+                                        <div class="input-group pt-4">
+                                            <div class="file-upload-wrapper"
+                                                data-text="اسحب الفيديو التى تريد اضافتها  او قم بفتحها من هنا">
+                                                <input required name="file-upload-field form-control" type="file"
+                                                    class="file-upload-field" value="" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- finish input -->
+
+                                    <div class="col-12">
+                                        <a href="#" class="btn btn-next-inside first">الاضافة والحفظ</a>
                                     </div>
                                 </div>
-                                <!-- finish input -->
-                                <!-- start input -->
-                                <div class="col-12">
-                                    <div class="input-group">
-                                        <label class="form-label"> رقم السجل التجاري</label>
-                                        <input type="text" class="form-control"
-                                            placeholder=" ادخل  ادخل رقم السجل التجارى">
+                                <!-- main education -->
+                            </form>
+                        </div>
+                        <!-- finish agency section -->
+
+                        <!-- start company -->
+                        <div class="indvidual_agency" id="company">
+                            <form class="form_topic">
+                                <h4> ادخل بيانات الشركة التالية للاستمرار</h4>
+                                <div class="row">
+                                    <!-- start input -->
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <label class="form-label"> الممثل القانوني</label>
+                                            <input type="text" class="form-control" placeholder="ادخل  الممثل القانوني">
+                                        </div>
+                                    </div>
+                                    <!-- finish input -->
+                                    <!-- start input -->
+                                    <div class="col-lg-6 col-12">
+                                        <div class="input-group">
+                                            <label class="form-label"> رقم الجوال</label>
+                                            <input type="tel" class="form-control" placeholder="  ادخل رقم الجوال">
+                                        </div>
+                                    </div>
+                                    <!-- finish input -->
+                                    <!-- start input -->
+                                    <div class="col-lg-6 col-12">
+                                        <div class="input-group">
+                                            <label class="form-label"> البريد الالكترونى</label>
+                                            <input type="email" class="form-control"
+                                                placeholder="    ادخل البريد الالكترونى">
+                                        </div>
+                                    </div>
+                                    <!-- finish input -->
+                                    <!-- start input -->
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <label class="form-label"> النشاط</label>
+                                            <input type="number" class="form-control" placeholder=" ادخل نشاط الشركة">
+
+                                        </div>
+                                    </div>
+                                    <!-- finish input -->
+
+                                    <!-- start input -->
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <label class="form-label"> رقم البطاقة الضريبية</label>
+                                            <input type="number" class="form-control"
+                                                placeholder="  ادخل رقم البطاقة الضريبية">
+                                        </div>
+                                    </div>
+                                    <!-- finish input -->
+                                    <!-- start input -->
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <label class="form-label"> رقم السجل التجاري</label>
+                                            <input type="text" class="form-control"
+                                                placeholder=" ادخل  ادخل رقم السجل التجارى">
+                                        </div>
+                                    </div>
+                                    <!-- finish input -->
+                                    <!-- start input -->
+                                    <div class="col-12">
+                                        <div class="input-group pt-4">
+                                            <label class="form-label">اضافة صور وملفات تعريفية بالشركة</label>
+                                            <div class="file-upload-wrapper"
+                                                data-text="اسحب الصوؤة التى تريد اضافتها  او قم بفتحها من هنا">
+                                                <input required name="file-upload-field form-control" type="file"
+                                                    class="file-upload-field" value="" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- finish input -->
+
+                                    <!-- start input -->
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <label class="form-label"> عنوان اشلركة </label>
+                                            <input type="text" class="form-control" placeholder=" ادخل   عنوان اشلركة">
+                                        </div>
+                                    </div>
+                                    <!-- finish input -->
+                                    <!-- start input -->
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <label class="form-label"> رقم التوكيل</label>
+                                            <input type="number" class="form-control" placeholder=" ادخل رقم التوكيل">
+                                        </div>
+                                    </div>
+                                    <!-- finish input -->
+                                    <!-- start input -->
+                                    <div class="col-12">
+                                        <div class="input-group pt-4">
+                                            <label class="form-label"> صورة التوكيل</label>
+                                            <div class="file-upload-wrapper"
+                                                data-text="اسحب الفيديو التى تريد اضافتها  او قم بفتحها من هنا">
+                                                <input required name="file-upload-field form-control" type="file"
+                                                    class="file-upload-field" value="" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- finish input -->
+
+                                    <div class="col-12">
+                                        <a href="#" class="btn btn-next-inside first">الاضافة والحفظ</a>
                                     </div>
                                 </div>
-                                <!-- finish input -->
+                                <!-- main education -->
+                            </form>
+                        </div>
+                        <!-- finish company -->
+                        <!-- start case -->
+                        <div class="indvidual_agency" id="case">
+                            <form class="form_topic">
+                                <h4> ادخل بيانات القضية التالية للاستمرار</h4>
                                 <!-- start input -->
-                                <div class="col-12">
-                                    <div class="input-group pt-4">
-                                        <label class="form-label">اضافة صور وملفات تعريفية بالشركة</label>
-                                        <div class="file-upload-wrapper"
-                                            data-text="اسحب الصوؤة التى تريد اضافتها  او قم بفتحها من هنا">
-                                            <input required name="file-upload-field form-control" type="file"
-                                                class="file-upload-field" value="" />
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <label class="form-label"> اسم القضية</label>
+                                            <input required type="text" placeholder="ادخل  اسم القضية  "
+                                                class="form-control">
                                         </div>
                                     </div>
                                 </div>
                                 <!-- finish input -->
 
                                 <!-- start input -->
-                                <div class="col-12">
-                                    <div class="input-group">
-                                        <label class="form-label"> عنوان اشلركة </label>
-                                        <input type="text" class="form-control" placeholder=" ادخل   عنوان اشلركة">
-                                    </div>
-                                </div>
-                                <!-- finish input -->
-                                <!-- start input -->
-                                <div class="col-12">
-                                    <div class="input-group">
-                                        <label class="form-label"> رقم التوكيل</label>
-                                        <input type="number" class="form-control" placeholder=" ادخل رقم التوكيل">
-                                    </div>
-                                </div>
-                                <!-- finish input -->
-                                <!-- start input -->
-                                <div class="col-12">
-                                    <div class="input-group pt-4">
-                                        <label class="form-label"> صورة التوكيل</label>
-                                        <div class="file-upload-wrapper"
-                                            data-text="اسحب الفيديو التى تريد اضافتها  او قم بفتحها من هنا">
-                                            <input required name="file-upload-field form-control" type="file"
-                                                class="file-upload-field" value="" />
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <label class="form-label"> نوع القضية</label>
+                                            <select required class="selectpicker" multiple
+                                                data-selected-text-format="count > 1" data-icon="bi bi-trash"
+                                                data-live-search="true" data-placeholder="حدد نوع القضية ">
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
                                         </div>
                                     </div>
                                 </div>
                                 <!-- finish input -->
 
-                                <div class="col-12">
-                                    <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                                        class="btn first">الاضافة والحفظ</button>
+                                <!-- start input -->
+                                <div class="row">
+                                    <div class="col-12 col-lg-6">
+                                        <div class="input-group">
+                                            <label class="form-label"> رقم القضية</label>
+                                            <input required type="number" placeholder="ادخل   رقم القضية  "
+                                                class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <div class="input-group">
+                                            <label class="form-label"> رقم الأرشيف</label>
+                                            <input required type="tel" placeholder="ادخل  رقم الأرشيف  "
+                                                class="form-control">
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                            <!-- main education -->
-                        </form>
+                                <!-- finish input -->
+
+                                <!-- start input -->
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <label class="form-label"> الدولة</label>
+                                            <select required class="selectpicker" multiple
+                                                data-selected-text-format="count > 1" data-icon="bi bi-trash"
+                                                data-live-search="true" data-placeholder="حدد  الدولة ">
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- finish input -->
+
+                                <!-- start input -->
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <label class="form-label"> المحكمة</label>
+                                            <select required class="selectpicker" multiple
+                                                data-selected-text-format="count > 1" data-icon="bi bi-trash"
+                                                data-live-search="true" data-placeholder="حدد  المحكمة ">
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- finish input -->
+
+                                <!-- start input -->
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <label class="form-label"> اسم الدائرة</label>
+                                            <input required type="text" placeholder="ادخل  اسم الدائرة  "
+                                                class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- finish input -->
+
+
+                                <!-- start input -->
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <label class="form-label"> الموكل</label>
+                                            <select required class="selectpicker" multiple
+                                                data-selected-text-format="count > 1" data-icon="bi bi-trash"
+                                                data-live-search="true" data-placeholder="حدد  الموكل ">
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- finish input -->
+
+                                <!-- start input -->
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <label class="form-label"> الخصم</label>
+                                            <select required class="selectpicker" multiple
+                                                data-selected-text-format="count > 1" data-icon="bi bi-trash"
+                                                data-live-search="true" data-placeholder="حدد  الخصم ">
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- finish input -->
+
+                                <!-- start input -->
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <label class="form-label"> موعد الجلسة</label>
+                                            <input required type="date" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- finish input -->
+
+                                <!-- start input -->
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <label class="form-label"> المحامي المسئول</label>
+                                            <select required class="selectpicker" multiple
+                                                data-selected-text-format="count > 1" multiable data-icon="bi bi-trash"
+                                                data-live-search="true" data-placeholder="حدد  المحامي المسئول ">
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- finish input -->
+
+                                <!-- start input -->
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <label class="form-label"> اشخاص يمكنهم متابعة ملف القضية</label>
+                                            <select required class="selectpicker" multiple
+                                                data-selected-text-format="count > 1" multiable data-icon="bi bi-trash"
+                                                data-live-search="true" data-placeholder=" اختر شخص او اكثر">
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- finish input -->
+
+                                <!-- start input -->
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <label class="form-label"> تفاصيل القضية</label>
+                                            <textarea class="form-control" placeholder="ادخل  تفاصيل القضية"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- finish input -->
+
+
+                                <!-- start input -->
+                                <div class="row">
+                                    <!-- start input -->
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <label class="form-label"> ارفاق صور و ملفات خاصة بالقضية </label>
+                                            <div class="file-upload-wrapper"
+                                                data-text="اسحب الملفات التى تريد اضافتها  او قم بفتحها من هنا">
+                                                <input required name="file-upload-field form-control" type="file"
+                                                    class="file-upload-field" value="" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- finish input -->
+                                </div>
+                                <!-- finish input -->
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <a href="#" class="btn btn-next-inside first">الاضافة والحفظ</a>
+                                    </div>
+                                </div>
+
+                            </form>
+                        </div>
+                        <!-- finish case -->
                     </div>
-
                 </div>
+                <!-- first step -->
+                <!-- second step -->
+                <div class="form-step-inside ">
+                    <div class="container">
+                        <div class="main_topic">
+                            <h4> اضافة عميل جديد </h4>
+                        </div>
+
+                        <div class="clerck_type">
+                            <h6> تفاصيل الاتفاق المالي </h6>
+                            <!-- start input group -->
+                            <div class="row">
+                                <div class="col-lg-6 col-12">
+                                    <div class="form-check form_card">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                            id="flexRadioDefault4" onchange="toggleSubscripe()">
+                                        <label class="form-check-label" for="flexRadioDefault4">
+                                            <img src="image/agence.png" alt="card">
+                                            <h6> قضية</h6>
+                                        </label>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="col-lg-6 col-12">
+                                    <div class="form-check form_card">
+                                        <input onchange="toggleSubscripe()" class="form-check-input" type="radio"
+                                            name="flexRadioDefault" id="flexRadioDefault5">
+                                        <label class="form-check-label" for="flexRadioDefault5">
+                                            <img src="image/company.png" alt="card">
+                                            <h6> اشتراك شهري / سنة</h6>
+                                        </label>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- finish input group -->
+                        </div>
+                        <div class="indvidual_agency" id="case_subscripe">
+                            <form class="form_topic">
+                                <div class="row">
+                                    <!-- start input -->
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <label class="form-label"> تكلفة القضية</label>
+                                            <input type="number" class="form-control"
+                                                placeholder="  حدد تكلفة القضيةر.س">
+                                        </div>
+                                    </div>
+                                    <!-- finish input -->
+                                    <!-- start input -->
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <label class="form-label"> مدة الدفع</label>
+                                            <select required class="selectpicker" data-placeholder=" حدد مدة الدفع"
+                                                data-selected-text-format="count > 1" data-icon="bi bi-trash"
+                                                data-live-search="true">
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <!-- finish input -->
+                                    <!-- start input -->
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <label class="form-label"> عدد الدفعات</label>
+                                            <select required class="selectpicker" data-placeholder=" عدد الدفعات"
+                                                data-selected-text-format="count > 1" data-icon="bi bi-trash"
+                                                data-live-search="true">
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <!-- finish input -->
+                                    <!-- start input -->
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <label class="form-label"> مقدم الدفع</label>
+                                            <input type="number" class="form-control" placeholder=" ادخل مقدم الدفع">
+                                        </div>
+                                    </div>
+                                    <!-- finish input -->
+                                    <!-- start input -->
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <label class="form-label"> باقي مقدم الدفع</label>
+                                            <input type="number" class="form-control"
+                                                placeholder="   حدد باقي مقدم الدفع">
+                                        </div>
+                                    </div>
+                                    <!-- finish input -->
+                                    <div class="col-12">
+                                        <div class="button">
+                                            <button class="btn  first" type="button" data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal">الاضافة والحفظ</button>
+
+                                            <a href="#" class="btn btn-prev-inside second "> رجوع </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </form>
+
+                        </div>
+                        <div class="indvidual_agency" id="year_subscripe">
+                            <form class="form_topic">
+                                <div class="row">
+                                    <!-- start input -->
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <label class="form-label"> تكلفة الاشتراك</label>
+                                            <input type="number" class="form-control">
+                                        </div>
+                                    </div>
+                                    <!-- finish input -->
+                                    <!-- start input -->
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <label class="form-label"> مدة الدفع</label>
+                                            <select required class="selectpicker" data-placeholder=" حدد مدة الدفع"
+                                                data-selected-text-format="count > 1" data-icon="bi bi-trash"
+                                                data-live-search="true">
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <!-- finish input -->
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <label class="form-label"> عدد الدفعات</label>
+                                            <input oninput="payment()" id="paymentsNumber" min="0" max="10"
+                                                type="number" class="form-control" placeholder=" ادخل عدد الدفعات">
+                                        </div>
+                                    </div>
+
+                                    <div id="timePaymentContainer"></div>
+
+                                   
+                                    <!-- start input -->
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <label class="form-label"> مقدم الدفع</label>
+                                            <input type="number" class="form-control" placeholder=" ادخل مقدم الدفع">
+                                        </div>
+                                    </div>
+                                    <!-- finish input -->
+                                    <!-- start input -->
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <label class="form-label"> باقي مقدم الدفع</label>
+                                            <input type="number" class="form-control"
+                                                placeholder="   حدد باقي مقدم الدفع">
+                                        </div>
+                                    </div>
+                                    <!-- finish input -->
+                                    <div class="col-12">
+                                        <div class="button">
+                                            <button class="btn  first" type="button" data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal">الاضافة والحفظ</button>
+                                            <a href="#" class="btn btn-next-inside second"> رجوع </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- second step -->
             </div>
             <!---------------------- finish  content -------------------------------------------->
         </section>
         <!---------------------- finish main content -------------------------------------------->
     </main>
     <!---------------------- finish footer -------------------------------------------->
+
+    <!---------------------- modal -------------------------------------------->
+
+    <div class="modal modal_assistant fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="content">
+                        <h4>تم اضافة العميل بنجاح الى قائمة العملاء </h4>
+                        <p> لقد قمت الآن باضافة عميل الى قائمة العملاء لديك ويمكنك التعديل على البيانات فيما بعد </p>
+                        <div class="button">
+                            <a href="detials-client.html" class="btn first">عرض التفاصيل </a>
+                            <a href="add-client.html" class="btn second"> اضافة قضية جديدة</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!---------------------- modal -------------------------------------------->
+
     <!-- main js -->
 
     <script src="js/jquery-3.7.1.min.js"></script>
@@ -532,65 +958,64 @@
     <!-- chart tabel -->
     <script src="js/chart.min.js"></script>
     <!-- chart tabel -->
-    <!-- counter -->
 
-    <script src="../js/counterup.min.js"></script>
-    <script src="../js/waypoints.min.js"></script>
-    <script>
-        $('.counter').counterUp({
-            delay: 20,
-            time: 3000
-        });
-    </script>
-
-    <!-- counter -->
     <!-- sweet alert -->
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <!-- sweet alert -->
 
-    <!-- show / hide  education  type -->
+    <!-- show / hide  client  type -->
     <script>
-        // This function for main education
-        function toggleRow() {
+        // This function for toggle client
+        function toggleClient() {
             var checkbox = document.getElementById('flexRadioDefault1');
-            var hiddenRow = document.getElementById('mainEducation');
+            var hiddenRow = document.getElementById('agency');
+            var checkbox2 = document.getElementById('flexRadioDefault2');
+            var hiddenRow2 = document.getElementById('company');
+            var checkbox3 = document.getElementById('inlineCheckbox3');
+            var hiddenRow3 = document.getElementById('case');
 
             if (checkbox.checked) {
                 // Show the hidden row
-                hiddenRow.classList.remove('main_education');
-            } else {
+                hiddenRow.classList.remove('indvidual_agency');
+                hiddenRow2.classList.add('indvidual_agency');
+                hiddenRow3.classList.add('indvidual_agency');
+            } else if (checkbox2.checked) {
                 // Hide and remove the row
-                hiddenRow.classList.add('main_education');
+                hiddenRow.classList.add('indvidual_agency');
+                hiddenRow2.classList.remove('indvidual_agency');
+                hiddenRow3.classList.add('indvidual_agency');
             }
-        }
-        // This function for Unversity education
-        function toggleUniversity() {
-            var checkbox2 = document.getElementById('inlineCheckbox2');
-            var hiddenRow2 = document.getElementById('universityEducation');
-
-            if (checkbox2.checked) {
-                // Show the hidden row
-                hiddenRow2.classList.remove('university_education');
-            } else {
-                // Hide and remove the row
-                hiddenRow2.classList.add('university_education');
-            }
-        }
-        // This function for free education
-        function toggleFree() {
-            var checkbox3 = document.getElementById('inlineCheckbox3');
-            var hiddenRow3 = document.getElementById('freeEducation');
-
-            if (checkbox3.checked) {
-                // Show the hidden row
-                hiddenRow3.classList.remove('free_education');
-            } else {
-                // Hide and remove the row
-                hiddenRow3.classList.add('free_education');
+            else {
+                hiddenRow.classList.add('indvidual_agency');
+                hiddenRow2.classList.add('indvidual_agency');
+                hiddenRow3.classList.remove('indvidual_agency');
             }
         }
     </script>
-    <!-- show main education -->
+    <!-- show / hide  client  type -->
+
+    <!-- show / hide  client  type -->
+    <script>
+        // This function for toggle client
+        function toggleSubscripe() {
+            var checkbox = document.getElementById('flexRadioDefault4');
+            var hiddenRow = document.getElementById('case_subscripe');
+            var checkbox2 = document.getElementById('flexRadioDefault5');
+            var hiddenRow2 = document.getElementById('year_subscripe');
+
+            if (checkbox.checked) {
+                // Show the hidden row
+                hiddenRow.classList.remove('indvidual_agency');
+                hiddenRow2.classList.add('indvidual_agency');
+            } else if (checkbox2.checked) {
+                // Hide and remove the row
+                hiddenRow.classList.add('indvidual_agency');
+                hiddenRow2.classList.remove('indvidual_agency');
+
+            }
+        }
+    </script>
+    <!-- show / hide  client  type -->
     <!-- upload file -->
     <script>
         $("form").on("change", ".file-upload-field", function () {
@@ -598,6 +1023,99 @@
         });
     </script>
     <!-- upload file -->
+
+    <!-- form withard inside -->
+    <script>
+        const prevBtnsIns = document.querySelectorAll(".btn-prev-inside");
+        const nextBtnsIns = document.querySelectorAll(".btn-next-inside");
+        const formStepsIns = document.querySelectorAll(".form-step-inside");
+        let formStepsNumIns = 0;
+
+        nextBtnsIns.forEach((btn) => {
+            btn.addEventListener("click", () => {
+                formStepsNumIns++;
+                updateFormStepsIns();
+                // updateProgressbar();
+            });
+        });
+        prevBtnsIns.forEach((btn) => {
+            btn.addEventListener("click", () => {
+                formStepsNumIns--;
+                updateFormStepsIns();
+                // updateProgressbar();
+            });
+        });
+        function updateFormStepsIns() {
+            formStepsIns.forEach((formStep) => {
+                formStep.classList.contains("form-step-inside-active") &&
+                    formStep.classList.remove("form-step-inside-active");
+            });
+
+            formStepsIns[formStepsNumIns].classList.add("form-step-inside-active");
+        }
+    </script>
+    <!-- form withard inside -->
+
+    <script>
+
+       
+function payment() {
+        let paymentValue = parseInt(document.getElementById('paymentsNumber').value);
+        let timePaymentContainer = document.getElementById('timePaymentContainer');
+
+        timePaymentContainer.innerHTML = ''; // Clear previous content
+        if(paymentValue > 10){
+            for (let i = 0; i <= 10; i++) {
+            let divElement = document.createElement('div');
+            divElement.className = 'col-12';
+
+            let inputGroup = document.createElement('div');
+            inputGroup.className = 'input-group';
+
+            let labelElement = document.createElement('label');
+            labelElement.className = 'form-label';
+            labelElement.textContent = 'موعد الدفعات';
+
+            let inputElement = document.createElement('input');
+            inputElement.type = 'date';
+            inputElement.className = 'form-control';
+            inputElement.placeholder = 'ادخل موعد الدفع';
+
+            inputGroup.appendChild(labelElement);
+            inputGroup.appendChild(inputElement);
+            divElement.appendChild(inputGroup);
+
+            timePaymentContainer.appendChild(divElement);
+        }
+        }
+        else{
+            for (let i = 0; i < paymentValue; i++) {
+            let divElement = document.createElement('div');
+            divElement.className = 'col-12';
+
+            let inputGroup = document.createElement('div');
+            inputGroup.className = 'input-group';
+
+            let labelElement = document.createElement('label');
+            labelElement.className = 'form-label';
+            labelElement.textContent = 'موعد الدفعات';
+
+            let inputElement = document.createElement('input');
+            inputElement.type = 'date';
+            inputElement.className = 'form-control';
+            inputElement.placeholder = 'ادخل موعد الدفع';
+
+            inputGroup.appendChild(labelElement);
+            inputGroup.appendChild(inputElement);
+            divElement.appendChild(inputGroup);
+
+            timePaymentContainer.appendChild(divElement);
+        }
+        }
+    
+    }
+
+    </script>
 
 </body>
 
