@@ -270,7 +270,7 @@
                                 <div class="col-lg-4 col-12">
                                     <div class="form-check form_card">
                                         <input onchange="toggleClient()" class="form-check-input" type="radio"
-                                            name="flexRadioDefault" id="flexRadioDefault2" >
+                                            name="flexRadioDefault" id="flexRadioDefault2">
                                         <label class="form-check-label" for="flexRadioDefault2">
                                             <img src="image/company.png" alt="card">
                                             <h6> شركة</h6>
@@ -280,7 +280,7 @@
                                 <div class="col-lg-4 col-12">
                                     <div class="form-check form_card">
                                         <input onchange="toggleClient()" class="form-check-input" type="radio"
-                                            name="flexRadioDefault" id="flexRadioDefault3" >
+                                            name="flexRadioDefault" id="flexRadioDefault3">
                                         <label class="form-check-label" for="flexRadioDefault3">
                                             <img src="image/case.png" alt="card">
                                             <h6> قضية</h6>
@@ -881,9 +881,9 @@
                                         </div>
                                     </div>
 
-                                    <div id="timePaymentContainer"></div>
+                                    <div class="row" id="timePaymentContainer"></div>
 
-                                   
+
                                     <!-- start input -->
                                     <div class="col-12">
                                         <div class="input-group">
@@ -946,9 +946,7 @@
         </div>
     </div>
     <!---------------------- modal -------------------------------------------->
-
     <!-- main js -->
-
     <script src="js/jquery-3.7.1.min.js"></script>
     <script src="js/all.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -1057,66 +1055,60 @@
     <!-- form withard inside -->
 
     <script>
-
-       
 function payment() {
-        let paymentValue = parseInt(document.getElementById('paymentsNumber').value);
-        let timePaymentContainer = document.getElementById('timePaymentContainer');
-
-        timePaymentContainer.innerHTML = ''; // Clear previous content
-        if(paymentValue > 10){
-            for (let i = 0; i <= 10; i++) {
-            let divElement = document.createElement('div');
-            divElement.className = 'col-12';
-
-            let inputGroup = document.createElement('div');
-            inputGroup.className = 'input-group';
-
-            let labelElement = document.createElement('label');
-            labelElement.className = 'form-label';
-            labelElement.textContent = 'موعد الدفعات';
-
-            let inputElement = document.createElement('input');
-            inputElement.type = 'date';
-            inputElement.className = 'form-control';
-            inputElement.placeholder = 'ادخل موعد الدفع';
-
-            inputGroup.appendChild(labelElement);
-            inputGroup.appendChild(inputElement);
-            divElement.appendChild(inputGroup);
-
-            timePaymentContainer.appendChild(divElement);
-        }
-        }
-        else{
-            for (let i = 0; i < paymentValue; i++) {
-            let divElement = document.createElement('div');
-            divElement.className = 'col-12';
-
-            let inputGroup = document.createElement('div');
-            inputGroup.className = 'input-group';
-
-            let labelElement = document.createElement('label');
-            labelElement.className = 'form-label';
-            labelElement.textContent = 'موعد الدفعات';
-
-            let inputElement = document.createElement('input');
-            inputElement.type = 'date';
-            inputElement.className = 'form-control';
-            inputElement.placeholder = 'ادخل موعد الدفع';
-
-            inputGroup.appendChild(labelElement);
-            inputGroup.appendChild(inputElement);
-            divElement.appendChild(inputGroup);
-
-            timePaymentContainer.appendChild(divElement);
-        }
-        }
-    
+    let paymentValue = parseInt(document.getElementById('paymentsNumber').value);
+    let timePaymentContainer = document.getElementById('timePaymentContainer');
+    timePaymentContainer.innerHTML = ''; // Clear previous content
+    if (paymentValue > 10) {
+        paymentValue = 10;
     }
 
-    </script>
+    for (let i = 0; i < paymentValue; i++) {
+        // payment time
+        let divElement = document.createElement('div');
+        divElement.className = 'col-12 col-lg-6';
 
+        let inputGroup = document.createElement('div');
+        inputGroup.className = 'input-group';
+
+        let labelElement = document.createElement('label');
+        labelElement.className = 'form-label';
+        labelElement.textContent = 'موعد الدفعة';
+
+        let inputElement = document.createElement('input');
+        inputElement.type = 'date';
+        inputElement.className = 'form-control';
+        inputElement.placeholder = 'ادخل موعد الدفع';
+
+        inputGroup.appendChild(labelElement);
+        inputGroup.appendChild(inputElement);
+        divElement.appendChild(inputGroup);
+
+        // payment price
+        let divElementPrice = document.createElement('div');
+        divElementPrice.className = 'col-12 col-lg-6';
+
+        let inputGroupPrice = document.createElement('div');
+        inputGroupPrice.className = 'input-group';
+
+        let labelElementPrice = document.createElement('label');
+        labelElementPrice.className = 'form-label';
+        labelElementPrice.textContent = 'سعر الدفعة';
+
+        let inputElementPrice = document.createElement('input');
+        inputElementPrice.type = 'number';
+        inputElementPrice.className = 'form-control';
+        inputElementPrice.placeholder = 'ادخل سعر الدفعة';
+
+        inputGroupPrice.appendChild(labelElementPrice);
+        inputGroupPrice.appendChild(inputElementPrice);
+        divElementPrice.appendChild(inputGroupPrice);
+
+        timePaymentContainer.appendChild(divElement);
+        timePaymentContainer.appendChild(divElementPrice);
+    }
+}
+    </script>
 </body>
 
 </html>
