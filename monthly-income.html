@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="css/fontawesome.min.css" />
     <link rel="stylesheet" href="css/bootstrap-select.min.css" />
     <link rel="stylesheet" href="main-scss/main.min.css" />
+    <link rel="stylesheet" href="css/responsive.css">
+
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.5/dist/sweetalert2.min.css"> -->
     <!-- responsive -->
 
@@ -62,13 +64,13 @@
                         <div class="close">
                             <i class="fa-solid fa-xmark"></i>
                         </div>
-                         <li>
-                           <a href="export-report.html" class="nav-link">
+                        <li>
+                            <a href="export-report.html" class="nav-link">
                                 <i class="fa-solid fa-circle dot"></i>
                                 <span>تقارير الصادرات</span></a>
                         </li>
                         <li>
-                           <a href="import-report.html" class="nav-link">
+                            <a href="import-report.html" class="nav-link">
                                 <i class="fa-solid fa-circle dot"></i>
                                 <span> تقارير الواردات</span></a>
                         </li>
@@ -82,7 +84,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                     <li class="nav-item">
+                <li class="nav-item">
                     <a href="celander.html" class="nav-link align-middle">
                         <img src="image/menu-board-icon.png" alt="icon" />
                         <span> التقويم</span>
@@ -112,7 +114,7 @@
                                 <span> سندات الصرف</span></a>
                         </li>
                         <li>
-                           <a href="pills.html" class="nav-link">
+                            <a href="pills.html" class="nav-link">
                                 <i class="fa-solid fa-circle dot"></i>
                                 <span> الفواتير</span></a>
 
@@ -253,7 +255,7 @@
                     <!-- card income -->
                     <div class="card_income">
                         <div class="row">
-                            <div class="col-lg-4 col-12">
+                            <div class="col-lg-4 col-md-4 col-12">
                                 <div class="card_income_list f">
                                     <div class="img">
                                         <img src="image/money-send.png" alt="wallet">
@@ -264,7 +266,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-12">
+                            <div class="col-lg-4 col-md-4 col-12">
                                 <div class="card_income_list s">
                                     <div class="img">
                                         <img src="image/money-recive.png" alt="wallet">
@@ -275,7 +277,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-12">
+                            <div class="col-lg-4 col-md-4 col-12">
                                 <div class="card_income_list t">
                                     <div class="img">
                                         <img src="image/wallet-3.png" alt="wallet">
@@ -295,35 +297,36 @@
                         <h4> تاريخ المعاملات </h4>
                     </div>
                     <div class="row">
-                        <table class="table-responsive table_expenses table_topic">
-                            <thead>
-                                <tr>
-                                    <td></td>
-                                    <td> المعاملة </td>
-                                    <td> القيمة</td>
-                                    <td> تاريخ الاضافة</td>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <!-- outcome list -->
-                                <tr>
-                                    <td> <span><i class="bi bi-box-arrow-up-right"></i></span></td>
-                                    <td> صرف 2500 ر.س لمصاريف قانوينة خاصة بالمكتب </td>
-                                    <td>2000 ر.س</td>
-                                    <td>2023 - 2 - 1</td>
-                                </tr>
-                                <!-- outcome list -->
-                                <!-- income list -->
-                                <tr>
-                                    <td> <span><i class="bi bi-box-arrow-down-left"></i></span></td>
-                                    <td>وارد 2500 ر.س لفاتورة قضية الاستاذ احمد ابراهيم</td>
-                                    <td>2000 ر.س</td>
-                                    <td>2023 - 2 - 1</td>
-                                </tr>
-                                <!-- income list -->
-                            </tbody>
-                        </table>
-
+                        <div class="table_scroll">
+                            <table class="table-responsive table_expenses table_topic">
+                                <thead>
+                                    <tr>
+                                        <td></td>
+                                        <td> المعاملة </td>
+                                        <td> القيمة</td>
+                                        <td> تاريخ الاضافة</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- outcome list -->
+                                    <tr>
+                                        <td> <span><i class="bi bi-box-arrow-up-right"></i></span></td>
+                                        <td> صرف 2500 ر.س لمصاريف قانوينة خاصة بالمكتب </td>
+                                        <td>2000 ر.س</td>
+                                        <td>2023 - 2 - 1</td>
+                                    </tr>
+                                    <!-- outcome list -->
+                                    <!-- income list -->
+                                    <tr>
+                                        <td> <span><i class="bi bi-box-arrow-down-left"></i></span></td>
+                                        <td>وارد 2500 ر.س لفاتورة قضية الاستاذ احمد ابراهيم</td>
+                                        <td>2000 ر.س</td>
+                                        <td>2023 - 2 - 1</td>
+                                    </tr>
+                                    <!-- income list -->
+                                </tbody>
+                            </table>
+                        </div>
                         <!-- pagination -->
                         <nav class="pagination_section">
                             <ul class="pagination justify-content-center">

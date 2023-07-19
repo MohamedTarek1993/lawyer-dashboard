@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="css/fontawesome.min.css" />
     <link rel="stylesheet" href="css/bootstrap-select.min.css" />
     <link rel="stylesheet" href="main-scss/main.min.css" />
+    <link rel="stylesheet" href="css/responsive.css">
+
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.5/dist/sweetalert2.min.css"> -->
     <!-- responsive -->
 
@@ -303,57 +305,60 @@
                         <h4> كل العملاء </h4>
                     </div>
                     <div class="row">
-                        <table class="table-responsive table_expenses table_topic">
-                            <thead>
-                                <tr>
-                                    <td>الرقم</td>
-                                    <td> اسم العميل </td>
-                                    <td> نوع العميل</td>
-                                    <td> رقم الهاتف</td>
-                                    <td>البريد الالكترونى</td>
-                                    <td>تاريخ الانضمام</td>
-                                    <td></td>
-                                </tr>
-                            </thead>
-                            <tbody>
-                            
-                                <tr>
-                                    <td> 1</td>
-                                    <td>أحمد عادل</td>
-                                    <td>شركة</td>
-                                    <td>0102546582</td>
-                                    <td>someone@gmail.com</td>
-                                    <td>2023 - 2 - 1</td>
-                                    <td class="button">
-                                        <a class="btn show" href="detials-client.html"> <i class="bi bi-eye"></i></a>
-                                        <a class="btn edit" href="edit-client.html"> <i class="bi bi-pencil"></i></a>
-
-                                        <button onclick="deleteion()" class="btn delete" href="#">
-                                            <i class="bi bi-trash"></i></button>
-
-                                    </td>
-                                </tr>
-                          
-                                <tr>
-
-                                    <td> 1</td>
-                                    <td>أحمد عادل</td>
-                                    <td>شركة</td>
-                                    <td>0102546582</td>
-                                    <td>someone@gmail.com</td>
-                                    <td>2023 - 2 - 1</td>
-                                    <td class="button">
-                                        <a class="btn show" href="detials-client.html"> <i class="bi bi-eye"></i></a>
-                                        <a class="btn edit" href="edit-client.html"> <i class="bi bi-pencil"></i></a>
-
-                                        <button onclick="deleteion()" class="btn delete" href="#">
-                                            <i class="bi bi-trash"></i></button>
-
-                                    </td>
-                                </tr>
+                        <div class="table_scroll">
+                            <table class="table-responsive table_expenses table_topic">
+                                <thead>
+                                    <tr>
+                                        <td>الرقم</td>
+                                        <td> اسم العميل </td>
+                                        <td> نوع العميل</td>
+                                        <td> رقم الهاتف</td>
+                                        <td>البريد الالكترونى</td>
+                                        <td>تاريخ الانضمام</td>
+                                        <td></td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                
+                                    <tr>
+                                        <td> 1</td>
+                                        <td>أحمد عادل</td>
+                                        <td>شركة</td>
+                                        <td>0102546582</td>
+                                        <td>someone@gmail.com</td>
+                                        <td>2023 - 2 - 1</td>
+                                        <td class="button">
+                                            <a class="btn show" href="detials-client.html"> <i class="bi bi-eye"></i></a>
+                                            <a class="btn edit" href="edit-client.html"> <i class="bi bi-pencil"></i></a>
+    
+                                            <button onclick="deleteion()" class="btn delete" href="#">
+                                                <i class="bi bi-trash"></i></button>
+    
+                                        </td>
+                                    </tr>
                               
-                            </tbody>
-                        </table>
+                                    <tr>
+    
+                                        <td> 1</td>
+                                        <td>أحمد عادل</td>
+                                        <td>شركة</td>
+                                        <td>0102546582</td>
+                                        <td>someone@gmail.com</td>
+                                        <td>2023 - 2 - 1</td>
+                                        <td class="button">
+                                            <a class="btn show" href="detials-client.html"> <i class="bi bi-eye"></i></a>
+                                            <a class="btn edit" href="edit-client.html"> <i class="bi bi-pencil"></i></a>
+    
+                                            <button onclick="deleteion()" class="btn delete" href="#">
+                                                <i class="bi bi-trash"></i></button>
+    
+                                        </td>
+                                    </tr>
+                                  
+                                </tbody>
+                            </table>
+                        </div>
+                      
 
                         <!-- pagination -->
                         <nav class="pagination_section">
@@ -392,3 +397,4 @@
 </body>
 
 </html>
+

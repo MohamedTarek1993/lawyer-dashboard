@@ -1,0 +1,3241 @@
+.letter:nth-child(1) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 0.05s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(2) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 0.1s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(3) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 0.15s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(4) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 0.2s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(5) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 0.25s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(6) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 0.3s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(7) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 0.35s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(8) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 0.4s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(9) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 0.45s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(10) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(11) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 0.55s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(12) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 0.6s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(13) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 0.65s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(14) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 0.7s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(15) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 0.75s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(16) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 0.8s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(17) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 0.85s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(18) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 0.9s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(19) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 0.95s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(20) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(21) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 1.05s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(22) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 1.1s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(23) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 1.15s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(24) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 1.2s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(25) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 1.25s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(26) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 1.3s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(27) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 1.35s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(28) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 1.4s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(29) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 1.45s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(30) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(31) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 1.55s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(32) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 1.6s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(33) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 1.65s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(34) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 1.7s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(35) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 1.75s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(36) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 1.8s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(37) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 1.85s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(38) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 1.9s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(39) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 1.95s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(40) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(41) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 2.05s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(42) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 2.1s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(43) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 2.15s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(44) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 2.2s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(45) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 2.25s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(46) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 2.3s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(47) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 2.35s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(48) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 2.4s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(49) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 2.45s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(50) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 2.5s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(51) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 2.55s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(52) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 2.6s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(53) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 2.65s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(54) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 2.7s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(55) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 2.75s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(56) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 2.8s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(57) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 2.85s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(58) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 2.9s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(59) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 2.95s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(60) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(61) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 3.05s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(62) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 3.1s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(63) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 3.15s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(64) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 3.2s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(65) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 3.25s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(66) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 3.3s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(67) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 3.35s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(68) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 3.4s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(69) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 3.45s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(70) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 3.5s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(71) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 3.55s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(72) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 3.6s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(73) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 3.65s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(74) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 3.7s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(75) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 3.75s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(76) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 3.8s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(77) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 3.85s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(78) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 3.9s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(79) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 3.95s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(80) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(81) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 4.05s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(82) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 4.1s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(83) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 4.15s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(84) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 4.2s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(85) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 4.25s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(86) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 4.3s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(87) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 4.35s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(88) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 4.4s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(89) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 4.45s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(90) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 4.5s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(91) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 4.55s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(92) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 4.6s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(93) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 4.65s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(94) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 4.7s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(95) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 4.75s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(96) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 4.8s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(97) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 4.85s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(98) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 4.9s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(99) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 4.95s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(100) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 5s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(101) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 5.05s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(102) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 5.1s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(103) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 5.15s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(104) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 5.2s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(105) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 5.25s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(106) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 5.3s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(107) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 5.35s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(108) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 5.4s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(109) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 5.45s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(110) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 5.5s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(111) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 5.55s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(112) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 5.6s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(113) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 5.65s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(114) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 5.7s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(115) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 5.75s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(116) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 5.8s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(117) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 5.85s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(118) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 5.9s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(119) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 5.95s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(120) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 6s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(121) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 6.05s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(122) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 6.1s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(123) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 6.15s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(124) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 6.2s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(125) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 6.25s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(126) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 6.3s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(127) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 6.35s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(128) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 6.4s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(129) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 6.45s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(130) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 6.5s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(131) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 6.55s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(132) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 6.6s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(133) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 6.65s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(134) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 6.7s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(135) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 6.75s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(136) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 6.8s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(137) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 6.85s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(138) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 6.9s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(139) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 6.95s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(140) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 7s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(141) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 7.05s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(142) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 7.1s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(143) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 7.15s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(144) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 7.2s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(145) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 7.25s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(146) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 7.3s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(147) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 7.35s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(148) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 7.4s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(149) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 7.45s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(150) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 7.5s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(151) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 7.55s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(152) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 7.6s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(153) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 7.65s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(154) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 7.7s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(155) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 7.75s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(156) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 7.8s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(157) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 7.85s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(158) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 7.9s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(159) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 7.95s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(160) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 8s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(161) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 8.05s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(162) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 8.1s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(163) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 8.15s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(164) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 8.2s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(165) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 8.25s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(166) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 8.3s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(167) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 8.35s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(168) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 8.4s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(169) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 8.45s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(170) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 8.5s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(171) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 8.55s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(172) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 8.6s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(173) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 8.65s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(174) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 8.7s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(175) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 8.75s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(176) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 8.8s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(177) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 8.85s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(178) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 8.9s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(179) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 8.95s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(180) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 9s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(181) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 9.05s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(182) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 9.1s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(183) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 9.15s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(184) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 9.2s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(185) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 9.25s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(186) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 9.3s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(187) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 9.35s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(188) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 9.4s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(189) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 9.45s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(190) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 9.5s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(191) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 9.55s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(192) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 9.6s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(193) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 9.65s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(194) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 9.7s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(195) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 9.75s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(196) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 9.8s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(197) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 9.85s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(198) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 9.9s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(199) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 9.95s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(200) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 10s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(201) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 10.05s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(202) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 10.1s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(203) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 10.15s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(204) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 10.2s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(205) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 10.25s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(206) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 10.3s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(207) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 10.35s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(208) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 10.4s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(209) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 10.45s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(210) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 10.5s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(211) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 10.55s;
+  animation-fill-mode: forwards;
+}
+
+.letter:nth-child(212) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 10.6s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(213) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 10.65s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(214) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 10.7s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(215) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 10.75s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(216) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 10.8s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(217) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 10.85s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(218) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 10.9s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(219) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 10.95s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(220) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 11s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(221) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 11.05s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(222) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 11.1s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(223) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 11.15s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(224) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 11.2s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(225) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 11.25s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(226) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 11.3s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(227) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 11.35s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(228) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 11.4s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(229) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 11.45s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(230) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 11.5s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(231) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 11.55s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(232) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 11.6s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(233) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 11.65s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(234) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 11.7s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(235) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 11.75s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(236) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 11.8s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(237) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 11.85s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(238) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 11.9s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(239) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 11.95s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(240) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 12s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(241) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 12.05s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(242) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 12.1s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(243) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 12.15s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(244) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 12.2s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(245) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 12.25s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(246) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 12.3s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(247) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 12.35s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(248) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 12.4s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(249) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 12.45s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(250) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 12.5s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(251) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 12.55s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(252) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 12.6s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(253) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 12.65s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(254) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 12.7s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(255) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 12.75s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(256) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 12.8s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(257) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 12.85s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(258) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 12.9s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(259) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 12.95s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(260) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 13s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(261) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 13.05s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(262) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 13.1s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(263) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 13.15s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(264) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 13.2s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(265) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 13.25s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(266) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 13.3s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(267) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 13.35s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(268) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 13.4s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(269) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 13.45s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(270) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 13.5s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(271) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 13.55s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(272) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 13.6s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(273) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 13.65s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(274) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 13.7s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(275) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 13.75s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(276) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 13.8s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(277) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 13.85s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(278) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 13.9s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(279) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 13.95s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(280) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 14s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(281) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 14.05s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(282) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 14.1s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(283) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 14.15s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(284) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 14.2s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(285) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 14.25s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(286) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 14.3s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(287) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 14.35s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(288) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 14.4s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(289) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 14.45s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(290) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 14.5s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(291) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 14.55s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(292) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 14.6s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(293) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 14.65s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(294) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 14.7s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(295) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 14.75s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(296) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 14.8s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(297) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 14.85s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(298) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 14.9s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(299) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 14.95s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(300) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 15s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(301) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 15.05s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(302) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 15.1s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(303) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 15.15s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(304) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 15.2s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(305) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 15.25s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(306) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 15.3s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(307) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 15.35s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(308) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 15.4s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(309) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 15.45s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(310) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 15.5s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(311) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 15.55s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(312) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 15.6s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(313) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 15.65s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(314) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 15.7s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(315) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 15.75s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(316) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 15.8s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(317) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 15.85s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(318) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 15.9s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(319) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 15.95s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(320) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 16s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(321) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 16.05s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(322) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 16.1s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(323) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 16.15s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(324) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 16.2s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(325) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 16.25s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(326) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 16.3s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(327) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 16.35s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(328) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 16.4s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(329) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 16.45s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(330) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 16.5s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(331) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 16.55s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(332) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 16.6s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(333) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 16.65s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(334) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 16.7s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(335) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 16.75s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(336) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 16.8s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(337) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 16.85s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(338) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 16.9s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(339) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 16.95s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(340) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 17s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(341) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 17.05s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(342) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 17.1s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(343) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 17.15s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(344) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 17.2s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(345) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 17.25s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(346) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 17.3s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(347) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 17.35s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(348) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 17.4s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(349) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 17.45s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(350) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 17.5s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(351) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 17.55s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(352) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 17.6s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(353) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 17.65s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(354) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 17.7s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(355) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 17.75s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(356) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 17.8s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(357) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 17.85s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(358) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 17.9s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(359) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 17.95s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(360) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 18s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(361) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 18.05s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(362) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 18.1s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(363) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 18.15s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(364) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 18.2s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(365) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 18.25s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(366) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 18.3s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(367) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 18.35s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(368) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 18.4s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(369) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 18.45s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(370) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 18.5s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(371) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 18.55s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(372) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 18.6s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(373) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 18.65s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(374) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 18.7s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(375) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 18.75s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(376) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 18.8s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(377) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 18.85s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(378) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 18.9s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(379) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 18.95s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(380) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 19s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(381) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 19.05s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(382) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 19.1s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(383) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 19.15s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(384) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 19.2s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(385) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 19.25s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(386) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 19.3s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(387) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 19.35s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(388) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 19.4s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(389) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 19.45s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(390) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 19.5s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(391) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 19.55s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(392) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 19.6s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(393) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 19.65s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(394) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 19.7s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(395) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 19.75s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(396) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 19.8s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(397) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 19.85s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(398) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 19.9s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(399) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 19.95s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(400) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 20s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(401) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 20.05s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(402) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 20.1s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(403) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 20.15s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(404) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 20.2s;
+  animation-fill-mode: forwards;
+}
+.letter:nth-child(405) {
+  opacity: 0;
+  transform: translateY(100%);
+  display: inline-block;
+  animation: letter-animation 1s;
+  animation-delay: 20.25s;
+  animation-fill-mode: forwards;
+}
