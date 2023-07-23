@@ -3128,11 +3128,16 @@ p.terms {
     height: 200px;
   }
 }
-
+.table_scroll_full{
+  overflow-x: auto;
+  overflow-y: auto;
+}
 .table_calender {
   // border-collapse: collapse;
-  width: 100%;
-  overflow: scroll;
+ 
+  width: max-content;
+ 
+
 
   th {
     background-color: #F2F4F8;
@@ -3141,11 +3146,19 @@ p.terms {
     padding: 10px;
     color: var(--color-pargraph);
     font-family: 'regular';
+    width: 150px; /* Adjust the width as needed */
+    min-width: 150px;
+    max-width: 150px;
+    word-wrap: break-word;
   }
 
   td {
     text-align: center;
     padding: 10px;
+    width: 200px; /* Adjust the width as needed */
+    min-width: 150px;
+    max-width: 350px;
+    word-wrap: break-word;
   }
 
   .current-month {
@@ -3185,13 +3198,21 @@ p.terms {
   }
 
   .calender_badge.task {
+    background-color: rgba(13, 110, 253 , .15);
     &::before {
       background-color: rgba(13, 110, 253);
     }
   }
   .calender_badge.case {
+    background-color: rgba(166, 112, 46 , .15);
     &::before {
       background-color: var(--color-primary);
+    }
+  }
+  .calender_badge.consultant{
+    background-color: rgba(220,53,69 ,.15);
+    &::before {
+      background-color: #DC3545 ;
     }
   }
 }
