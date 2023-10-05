@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="ar" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>العملاء</title>
+
+    <!-- main css -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-select.min.css" />
+    <link rel="stylesheet" href="main-scss/main.min.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <!--  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.7.22/sweetalert2.min.css"
+      integrity="sha512-yX1R8uWi11xPfY7HDg7rkLL/9F1jq8Hyiz8qF4DV2nedX4IVl7ruR2+h3TFceHIcT5Oq7ooKi09UZbI39B7ylw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--  -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.5/dist/sweetalert2.min.css"> -->
+
+    <!-- responsive -->
+
+    <!-- ? Favicon -->
+    <link rel="icon" href="image/logo.png" type="image" />
+    <!-- ? Favicon -->
+  </head>
+
+  <body>
+    <main class="d-flex sidemobile p-0">
+      <!---------------------- start sidebar -------------------------------------------->
+
+      <section class="sidebar open">
+        <ul
+          class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start"
+          id="menu"
+        >
+          <!-- <div class="image_logo">
+                    <img src="image/logo.png" alt="logo_sidebar" class="logo" />
+                </div> -->
+          <li class="nav-item">
+            <a href="index.html" class="nav-link align-middle">
+              <img src="image/home-icon.png" alt="icon" />
+              <span>الرئيسية</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="cases.html" class="nav-link align-middle">
+              <img src="/image/judge-icon.png" alt="icon" />
+              <span>القضايا</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="clients.html" class="nav-link align-middle">
+              <img src="image/profile-icon.png" alt="icon" />
+              <span> العملاء</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="#submenulibrary"
+              data-bs-toggle="collapse"
+              class="nav-link accordion-button align-middle collapsed"
+            >
+              <img src="image/clipboard-icon.png" alt="icon" />
+              <span>التقارير</span>
+              <i class="fa-solid fa-angle-up"></i>
+            </a>
+            <ul
+              class="collapse flex-column"
+              id="submenulibrary"
+              data-bs-parent="#menu"
+            >
+              <div class="close">
+                <i class="fa-solid fa-xmark"></i>
+              </div>
+              <li>
+                <a href="export-report.html" class="nav-link">
+                  <i class="fa-solid fa-circle dot"></i>
+                  <span>تقارير الصادرات</span></a
+                >
+              </li>
+              <li>
+                <a href="import-report.html" class="nav-link">
+                  <i class="fa-solid fa-circle dot"></i>
+                  <span> تقارير الواردات</span></a
+                >
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a href="consultants.html" class="nav-link align-middle">
+              <img src="image/note-icon.png" alt="icon" />
+              <span>الاستشارات</span>
+            </a>
+          </li>
+          <li class="nav-item"></li>
+          <li class="nav-item">
+            <a href="celander.html" class="nav-link align-middle">
+              <img src="image/menu-board-icon.png" alt="icon" />
+              <span> التقويم</span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a
+              href="#submenuAccountant"
+              data-bs-toggle="collapse"
+              class="nav-link accordion-button align-middle collapsed"
+            >
+              <img src="image/moneys-icon.png" alt="icon" />
+              <span> الحسابات المالية</span>
+              <i class="fa-solid fa-angle-up"></i>
+            </a>
+            <ul
+              class="collapse flex-column"
+              id="submenuAccountant"
+              data-bs-parent="#menu"
+            >
+              <div class="close">
+                <i class="fa-solid fa-xmark"></i>
+              </div>
+              <li>
+                <a href="bills-exchange.html" class="nav-link">
+                  <i class="fa-solid fa-circle dot"></i>
+                  <span> سندات الصرف</span></a
+                >
+              </li>
+              <li>
+                <a href="pills.html" class="nav-link">
+                  <i class="fa-solid fa-circle dot"></i>
+                  <span> الفواتير</span></a
+                >
+              </li>
+              <li>
+                <a href="monthly-income.html" class="nav-link">
+                  <i class="fa-solid fa-circle dot"></i>
+                  <span> الدخل الشهري</span></a
+                >
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a href="tasks.html" class="nav-link align-middle">
+              <img src="image/task-square-icon.png" alt="icon" />
+              <span> مهام المكتب</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="clerks.html" class="nav-link align-middle">
+              <img src="image/briefcase-icon.png" alt="icon" />
+              <span> الموظفين</span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a
+              href="#submenuSitting"
+              data-bs-toggle="collapse"
+              class="nav-link accordion-button align-middle collapsed"
+            >
+              <img src="image/briefcase-icon.png" alt="icon" />
+              <span> اعدادات العمل</span>
+              <i class="fa-solid fa-angle-up"></i>
+            </a>
+            <ul
+              class="collapse flex-column"
+              id="submenuSitting"
+              data-bs-parent="#menu"
+            >
+              <div class="close">
+                <i class="fa-solid fa-xmark"></i>
+              </div>
+              <li>
+                <a href="landing-page.html" class="nav-link">
+                  <i class="fa-solid fa-circle dot"></i>
+                  <span> الصفحة التعريفية</span></a
+                >
+              </li>
+              <li>
+                <a href="guide.html" class="nav-link">
+                  <i class="fa-solid fa-circle dot"></i>
+                  <span> الدليل</span></a
+                >
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a href="settings.html" class="nav-link align-middle">
+              <img src="image/more-icon.png" alt="icon" />
+              <span> الاعدادات العامة</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link align-middle">
+              <img src="image/logout-icon.png" alt="icon" />
+              <span> تسجيل الخروج</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <!---------------------- end sidebar -------------------------------------------->
+      <!---------------------- start main content -------------------------------------------->
+
+      <section class="index_cards">
+        <!---------------------- start nav -------------------------------------------->
+        <nav class="nav_top navbar">
+          <div class="container">
+            <div class="menu">
+              <i class="bi bi-list"></i>
+            </div>
+            <div class="info">
+              <div class="notfication" onclick="showNotification()">
+                <i class="bi bi-bell"></i>
+                <span class="alerts"> 3 </span>
+              </div>
+
+              <div class="img">
+                <img src="../image/person.png" alt="person" />
+              </div>
+              <div class="btn-group">
+                <button
+                  class="btn btn-sm dropdown-toggle"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  محمد طارق
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a href="settings.html">اعدادات الحساب</a></li>
+                  <li onclick="acceptAlert()">تسجيل الخروج</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <ul class="notfication_list">
+          <h2>الأشعارات</h2>
+          <i class="bi bi-x close-icon" onclick="hideNotification()"></i>
+
+          <li class="unread" onclick="convertToRead(this)">
+            <div class="info">
+              <h6>text</h6>
+              <span> 22/6/1993</span>
+            </div>
+            <div class="delete">
+              <i class="bi bi-trash"></i>
+            </div>
+          </li>
+          <li class="read">
+            <div class="info">
+              <h6>text</h6>
+              <span> 22/6/1993</span>
+            </div>
+            <div class="delete">
+              <i class="bi bi-trash"></i>
+            </div>
+          </li>
+        </ul>
+        <!---------------------- finish nav -------------------------------------------->
+        <!---------------------- start content -------------------------------------------->
+        <div class="content_page">
+          <!-- first step -->
+          <div class="form-step-inside form-step-inside-active">
+            <div class="container">
+              <div class="main_topic">
+                <h4>طلب استشارة جديدة</h4>
+              </div>
+              <div class="clerck_type">
+                <h6>اختر نوع الاستشارة</h6>
+                <!-- start input group -->
+                <div class="row">
+                  <div class="col-lg-5 col-md-4 col-12">
+                    <div class="form-check form_card card-request">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="flexRadioDefault"
+                        id="flexRadioDefault1"
+                        onchange="toggleClient()"
+                      />
+                      <label
+                        class="form-check-label form-check-request"
+                        for="flexRadioDefault1"
+                      >
+                        <div class="img">
+                          <img src="image/video.svg" alt="card" />
+                        </div>
+
+                        <h6>استشارة فيديو</h6>
+                      </label>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-5 col-md-4 col-12">
+                    <div class="form-check form_card card-request">
+                      <input
+                        onchange="toggleClient()"
+                        class="form-check-input"
+                        type="radio"
+                        name="flexRadioDefault"
+                        id="flexRadioDefault2"
+                      />
+                      <label
+                        class="form-check-label form-check-request"
+                        for="flexRadioDefault2"
+                      >
+                        <div class="img">
+                          <img src="image/voice.svg" alt="card" />
+                        </div>
+                        <h6>استشارة صوت فقط</h6>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <!-- finish input group -->
+              </div>
+
+              <!-- start Video-consultation section -->
+              <div class="indvidual_agency" id="agency">
+                <form class="form_topic">
+                  <div class="row">
+                    <!-- start input -->
+                    <div class="col-10">
+                      <div class="input-group">
+                        <label class="form-label"> أختر اليوم المناسب</label>
+                        <input
+                          type="date"
+                          class="form-control"
+                          id="dateInput"
+                          placeholder="ادخل اسم العميل"
+                        />
+                        <i
+                          class="fa-regular fa-calendar"
+                          style="
+                            position: absolute;
+                            bottom: 13px;
+                            right: 10px;
+                            color: rgba(166, 112, 46, 1);
+                          "
+                        ></i>
+                      </div>
+                    </div>
+                    <!-- finish input -->
+                    <h6 style="font-family: regular; font-size: 16px">
+                      أختر الفترة المناسبة لك
+                    </h6>
+                    <!-- start input -->
+                    <div class="col-lg-10 col-12">
+                      <div class="parent-request">
+                        <div class="parent-time">
+                          <div class="time-one">
+                            <h6>الفترة الأولى</h6>
+                            <p>02:00 م - 08:00 م</p>
+                          </div>
+                          <div class="reservation">
+                            <button
+                              type="button"
+                              class="btn btn-bolk"
+                              onclick="blockAlert()"
+                            >
+                              احجز الآن
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- finish input -->
+                    <!-- start input -->
+                    <div class="col-lg-10 col-12">
+                      <div class="parent-request">
+                        <div class="parent-time">
+                          <div class="time-one">
+                            <h6>الفترة الثانية</h6>
+                            <p>09:00 م - 11:00 م</p>
+                          </div>
+                          <div class="reservation">
+                            <button
+                              type="button"
+                              class="btn btn-bolk"
+                              onclick="blockAlert()"
+                            >
+                              احجز الآن
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- finish input -->
+                  </div>
+                  <!-- main education -->
+                </form>
+              </div>
+              <!-- finish Video-consultation -->
+
+                <!-- start Voice consultation only -->
+                <div class="indvidual_agency" id="company">
+                  <form class="form_topic">
+                      <div class="row">
+                        <!-- start input -->
+                        <div class="col-10">
+                          <div class="input-group">
+                            <label class="form-label"> أختر اليوم المناسب</label>
+                            <input
+                              type="date"
+                              class="form-control"
+                              id="dateInput"
+                              placeholder="ادخل اسم العميل"
+                            />
+                            <i
+                              class="fa-regular fa-calendar"
+                              style="
+                                position: absolute;
+                                bottom: 13px;
+                                right: 10px;
+                                color: rgba(166, 112, 46, 1);
+                              "
+                            ></i>
+                          </div>
+                        </div>
+                        <!-- finish input -->
+                        <h6 style="font-family: regular; font-size: 16px">
+                          أختر الفترة المناسبة لك
+                        </h6>
+                        <!-- start input -->
+                        <div class="col-lg-10 col-12">
+                          <div class="parent-request">
+                            <div class="parent-time">
+                              <div class="time-one">
+                                <h6>الفترة الأولى</h6>
+                                <p>02:00 م - 08:00 م</p>
+                              </div>
+                              <div class="reservation">
+                                <button
+                                  type="button"
+                                  class="btn btn-bolk"
+                                  onclick="blockAlert()"
+                                >
+                                  احجز الآن
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- finish input -->
+                        <!-- start input -->
+                        <div class="col-lg-10 col-12">
+                          <div class="parent-request">
+                            <div class="parent-time">
+                              <div class="time-one">
+                                <h6>الفترة الثانية</h6>
+                                <p>09:00 م - 11:00 م</p>
+                              </div>
+                              <div class="reservation">
+                                <button
+                                  type="button"
+                                  class="btn btn-bolk"
+                                  onclick="blockAlert()"
+                                >
+                                  احجز الآن
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- finish input -->
+                      </div>
+                      <!-- main education -->
+                  </form>
+              </div>
+              <!-- finish Voice consultation only -->
+            </div>
+          </div>
+          <!-- first step -->
+          <!-- second step -->
+          <!-- second step -->
+        </div>
+        <!---------------------- finish  content -------------------------------------------->
+      </section>
+      <!---------------------- finish main content -------------------------------------------->
+    </main>
+    <!---------------------- finish footer -------------------------------------------->
+
+    <!---------------------- modal -------------------------------------------->
+    <!---------------------- modal -------------------------------------------->
+    <!-- main js -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- main js -->
+    <!-- chart tabel -->
+    <script src="js/chart.min.js"></script>
+    <!-- chart tabel -->
+
+    <!-- sweet alert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- sweet alert -->
+
+    <!--  -->
+    <script src="https://common.olemiss.edu/_js/sweet-alert/sweet-alert.min.js"></script>
+
+    <!--  -->
+    <!-- sweet alert -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.7.22/sweetalert2.min.js"
+      integrity="sha512-pQdCIGAWAwzEHgw7boqX3wRNUqyaj7ta8qHsZ2yZtJofKqwSsh98Q+NJn96MAYCMcMnoZhdUo771JzaJCbrJMg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script>
+      function blockAlert() {
+        Swal.fire({
+          html:
+            '<h5 class="swal2-title"> تم حجز الاستشارة بنجاح </h5>' +
+            '<p class="swal2-html-container">تم ارسال طلبك بحجز استشارة مع أ/ أحمد سعد وسنقوم بارسال لينك الى بريدك الالكتروني للاستشارة </p>',
+          icon: "success",
+        });
+      }
+    </script>
+    <!-- sweet alert -->
+
+    <!-- show / hide  client  type -->
+    <script>
+      // This function for toggle client
+      function toggleClient() {
+        var checkbox = document.getElementById("flexRadioDefault1");
+        var hiddenRow = document.getElementById("agency");
+        var checkbox2 = document.getElementById("flexRadioDefault2");
+        var hiddenRow2 = document.getElementById("company");
+        var checkbox3 = document.getElementById("inlineCheckbox3");
+        var hiddenRow3 = document.getElementById("case");
+
+        if (checkbox.checked) {
+          // Show the hidden row
+          hiddenRow.classList.remove("indvidual_agency");
+          hiddenRow2.classList.add("indvidual_agency");
+          hiddenRow3.classList.add("indvidual_agency");
+        } else if (checkbox2.checked) {
+          // Hide and remove the row
+          hiddenRow.classList.add("indvidual_agency");
+          hiddenRow2.classList.remove("indvidual_agency");
+          hiddenRow3.classList.add("indvidual_agency");
+        } else {
+          hiddenRow.classList.add("indvidual_agency");
+          hiddenRow2.classList.add("indvidual_agency");
+          hiddenRow3.classList.remove("indvidual_agency");
+        }
+      }
+    </script>
+    <!-- show / hide  client  type -->
+
+    <!-- show / hide  client  type -->
+    <script>
+      // This function for toggle client
+      function toggleSubscripe() {
+        var checkbox = document.getElementById("flexRadioDefault4");
+        var hiddenRow = document.getElementById("case_subscripe");
+        var checkbox2 = document.getElementById("flexRadioDefault5");
+        var hiddenRow2 = document.getElementById("year_subscripe");
+
+        if (checkbox.checked) {
+          // Show the hidden row
+          hiddenRow.classList.remove("indvidual_agency");
+          hiddenRow2.classList.add("indvidual_agency");
+        } else if (checkbox2.checked) {
+          // Hide and remove the row
+          hiddenRow.classList.add("indvidual_agency");
+          hiddenRow2.classList.remove("indvidual_agency");
+        }
+      }
+    </script>
+    <!-- show / hide  client  type -->
+    <!-- upload file -->
+    <script>
+      $("form").on("change", ".file-upload-field", function () {
+        $(this)
+          .parent(".file-upload-wrapper")
+          .attr(
+            "data-text",
+            $(this)
+              .val()
+              .replace(/.*(\/|\\)/, "")
+          );
+      });
+    </script>
+    <!-- upload file -->
+
+    <!-- form withard inside -->
+    <script>
+      const prevBtnsIns = document.querySelectorAll(".btn-prev-inside");
+      const nextBtnsIns = document.querySelectorAll(".btn-next-inside");
+      const formStepsIns = document.querySelectorAll(".form-step-inside");
+      let formStepsNumIns = 0;
+
+      nextBtnsIns.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          formStepsNumIns++;
+          updateFormStepsIns();
+          // updateProgressbar();
+        });
+      });
+      prevBtnsIns.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          formStepsNumIns--;
+          updateFormStepsIns();
+          // updateProgressbar();
+        });
+      });
+      function updateFormStepsIns() {
+        formStepsIns.forEach((formStep) => {
+          formStep.classList.contains("form-step-inside-active") &&
+            formStep.classList.remove("form-step-inside-active");
+        });
+
+        formStepsIns[formStepsNumIns].classList.add("form-step-inside-active");
+      }
+    </script>
+    <!-- form withard inside -->
+
+    <script>
+      function payment() {
+        let paymentValue = parseInt(
+          document.getElementById("paymentsNumber").value
+        );
+        let timePaymentContainer = document.getElementById(
+          "timePaymentContainer"
+        );
+        timePaymentContainer.innerHTML = ""; // Clear previous content
+        if (paymentValue > 10) {
+          paymentValue = 10;
+        }
+
+        for (let i = 0; i < paymentValue; i++) {
+          // payment time
+          let divElement = document.createElement("div");
+          divElement.className = "col-12 col-lg-6";
+
+          let inputGroup = document.createElement("div");
+          inputGroup.className = "input-group";
+
+          let labelElement = document.createElement("label");
+          labelElement.className = "form-label";
+          labelElement.textContent = "موعد الدفعة";
+
+          let inputElement = document.createElement("input");
+          inputElement.type = "date";
+          inputElement.className = "form-control";
+          inputElement.placeholder = "ادخل موعد الدفع";
+
+          inputGroup.appendChild(labelElement);
+          inputGroup.appendChild(inputElement);
+          divElement.appendChild(inputGroup);
+
+          // payment price
+          let divElementPrice = document.createElement("div");
+          divElementPrice.className = "col-12 col-lg-6";
+
+          let inputGroupPrice = document.createElement("div");
+          inputGroupPrice.className = "input-group";
+
+          let labelElementPrice = document.createElement("label");
+          labelElementPrice.className = "form-label";
+          labelElementPrice.textContent = "سعر الدفعة";
+
+          let inputElementPrice = document.createElement("input");
+          inputElementPrice.type = "number";
+          inputElementPrice.className = "form-control";
+          inputElementPrice.placeholder = "ادخل سعر الدفعة";
+
+          inputGroupPrice.appendChild(labelElementPrice);
+          inputGroupPrice.appendChild(inputElementPrice);
+          divElementPrice.appendChild(inputGroupPrice);
+
+          timePaymentContainer.appendChild(divElement);
+          timePaymentContainer.appendChild(divElementPrice);
+        }
+      }
+    </script>
+  </body>
+</html>
