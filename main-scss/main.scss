@@ -3284,7 +3284,7 @@ div:where(.swal2-container) div:where(.swal2-actions) {
   align-items: center;
 }
 // .clerck_type .form_card .form-check-label h6,
-.clerck_type .card-request input[type="radio"]:checked + label{
+.clerck_type .card-request input[type="radio"]:checked + label {
   border: none;
   border-width: 0;
   background-color: rgba(166, 112, 46, 1);
@@ -3296,8 +3296,8 @@ div:where(.swal2-container) div:where(.swal2-actions) {
 .clerck_type .card-request input[type="radio"]:checked + label h6 {
   color: #fff;
 }
-.card_list-main{
-  border: rgba(175, 175, 175, 1) solid .6px !important;
+.card_list-main {
+  border: rgba(175, 175, 175, 1) solid 0.6px !important;
   border-radius: 10px !important;
   align-items: end !important;
 }
@@ -3305,7 +3305,7 @@ div:where(.swal2-container) div:where(.swal2-actions) {
   width: 60px !important;
   height: 60px !important;
 }
-.quick-consultation{
+.quick-consultation {
   padding: 1rem;
   background-color: #000000;
   border-radius: 10px;
@@ -3313,91 +3313,238 @@ div:where(.swal2-container) div:where(.swal2-actions) {
   color: white;
   display: flex;
   justify-content: space-between;
-    align-items: center;
+  align-items: center;
 }
-.quick-consultation .img{
+.quick-consultation .img {
   width: 15%;
 }
-.quick-consultation img{
+.quick-consultation img {
   width: 80px;
   height: 80px;
 }
-.quick-consultation .title-consultation{
+.quick-consultation .title-consultation {
   width: 55%;
 }
-.quick-consultation .title-consultation h4{
+.quick-consultation .title-consultation h4 {
   font-family: "bold";
   font-size: 20px;
 }
-.quick-consultation .title-consultation p{
+.quick-consultation .title-consultation p {
   font-family: "regular";
   font-size: 12px;
 }
-.quick-consultation .h6{
+.quick-consultation .h6 {
   // width: 25%;
   background-color: white;
   color: #000000;
   border-radius: 5px;
-  padding: .5rem 1rem;
-  display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.quick-consultation h6{
-  font-family: "bold";
-  font-size: 14px;
-}
-.Upcoming-sessions{
+  padding: 0.5rem 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.parent-calender{
+.quick-consultation h6 {
+  font-family: "bold";
+  font-size: 14px;
+}
+.Upcoming-sessions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.parent-calender {
   display: flex;
 }
-.date-session h5{
+.date-session h5 {
   font-family: "bold";
   font-size: 16px;
 }
-.calender svg{
+.calender svg {
   color: rgba(166, 112, 46, 1);
   padding: 0 10px;
 }
-.calender span{
+.calender span {
   color: rgba(110, 101, 91, 1);
   font-family: "light";
   font-size: 12px;
 }
-.calender h6{
+.calender h6 {
   color: black;
   font-family: "regular";
   font-size: 12px;
 }
-.calender{
+.calender {
   display: flex;
   align-items: flex-start;
-    padding: 0.5rem;
+  padding: 0.5rem;
 }
-.Upcoming-sessions .btn{
+.Upcoming-sessions .btn {
   background-color: rgba(166, 112, 46, 1);
   color: white;
   border: none;
-  padding: .7rem 1rem;
+  padding: 0.7rem 1rem;
   border-radius: 8px;
   box-shadow: none;
 }
-.date-sessions h5{
+.date-sessions h5 {
   font-family: "bold";
   font-size: 16px;
   padding: 0 18px;
 }
 .Upcoming-sessions {
-  border: rgba(184, 184, 184, 1) .8px solid;
+  border: rgba(184, 184, 184, 1) 0.8px solid;
   border-radius: 6px;
   padding: 1rem;
-  margin: .5rem 0;
+  margin: 0.5rem 0;
 }
-.parent-main{
+.parent-main {
   padding: 1rem;
 }
+.sign-in {
+  width: 100%;
+  height: 88vh;
+  background-color: rgba(240, 242, 243, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sign-in .details-sign-in {
+  background-color: white;
+  border-radius: 16px;
+  width: 500px;
+  padding: 1rem;
+}
+.sign-in .details-sign-in .parent-sign {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.sign-in .details-sign-in .parent-sign img {
+  width: 85%;
+}
+.sign-in .details-sign-in .parent-sign .contant-sign h5 {
+  font-family: "bold";
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+.sign-in .details-sign-in .parent-sign .contant-sign p {
+  font-family: "regular";
+  font-size: 16px;
+  color: rgba(119, 119, 119, 1);
+}
+.sign-in .details-sign-in .parent-sign .img {
+  text-align: end;
+}
+.icon-sign{
+  position: relative;
+}
+.mail{
+  position: absolute;
+  top: 53px;
+  right: 10px;
+  color: rgba(119, 119, 119, 1);
+}
+.icon-sign .word{
+padding-right: 2.1rem;
+background-color: rgba(247, 247, 247, 1);
+border: none;
+margin: .5rem 0;
+font-family: 'light';
+font-size: 16px;
+}
+.email-addres{
+  color: black;
+  font-family: 'regular';
+  font-size: 16px;
+  margin: 5px 0;
+}
+.login{
+  position: absolute;
+  top: 127px;
+  right: 10px;
+  color: rgba(119, 119, 119, 1);
+}
+.forget-pass{
+  text-align: end;
+  margin-top: 1rem;
+}
+.forget-pass a{
+  font-family: 'regular';
+  font-size: 16px;
+}
+.forget-pass a:hover{
+ color: rgba(166, 112, 46, 1);
+}
 
+.btn-warning{
+  width: 100%;
+  background-color: rgba(166, 112, 46, 1);
+  color: white;
+  border-radius: 10px;
+  transition: .45s all ease-in-out;
+  font-family: 'regular';
+  font-size: 16px;
+  margin: 1rem 0;
+}
+.btn-warning:hover{
+border: 1px solid rgba(166, 112, 46, 1);
+border-radius: 10px;
+background-color: transparent;
+transition: .45s all ease-in-out;
+}
+.details-sign-in h6{
+  font-family: 'regular';
+  font-size: 16px;
+  text-align: center;
+  margin: 1rem 0 1rem;
+}
+.details-sign-in h6 a{
+  color: rgba(166, 112, 46, 1);
+}
+.code-input{
+  width: 20%;
+  padding: 2rem 0;
+  border: unset;
+  background-color: #f7f7f7;
+  border-radius: 13px;
+  text-align: center;
+  font-size: 1.5em;
+}
+.code-input:focus {
+  outline: none;
+  border: 2px solid rgba(166, 112, 46, 1);
+}
+ .recov-code{
+   text-align: center;
+   margin: 2rem 0 1rem;
+ }
+.details-sign-in .link{
+  text-align: center;
+  margin: 1rem 0;
+}
+.details-sign-in .link h5 a{
+  color: rgba(119, 119, 119, 1);
+  font-family: 'regular';
+  font-size: 16px;
+}
+.resend h6{
+  color: rgba(119, 119, 119, 1);
+  font-family: 'regular';
+  font-size: 16px;
+}
+.icon-sign .user{
+  position: absolute;
+  top: 52px;
+    right: 10px;
+}
+.icon-sign .emaill{
+  position: absolute;
+  top: 138px;
+    right: 10px;
+}
+.icon-sign .pass{
+  position: absolute;
+  right: 10px;
+  bottom: 12px;
+}
